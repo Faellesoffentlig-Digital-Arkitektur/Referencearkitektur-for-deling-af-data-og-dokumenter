@@ -186,7 +186,7 @@ I [afsnit 3 Forretningsarkitektur](#3-forretningsarkitektur) beskrives forretnin
 
 [Afsnit 4 Teknisk arkitektur](#4-teknisk-arkitektur) beskriver den tekniske arkitektur i form af en række implementeringsmønstre for, hvordan deling af data kan implementeres. Ud fra mønstrene identificeres en række gennemgående integrationssnitflader, der leder op til en analyse af, hvor der er behov for standardisering.
 
-Det er tilstræbt at bygge dokumentet op omkring enkle og relativt stramt definerede termer, der beskriver de centrale begreber omkring videregivelse af data og de mulige forretnings- og implementeringsmønstre. Definitionerne introduceres løbende gennem dokumentet og er endvidere opsamlet i [Bilag B: Ord- og begrebsliste](#62-bilag-b-ord-og-begrebsliste).
+Det er tilstræbt at bygge dokumentet op omkring enkle og relativt stramt definerede termer, der beskriver de centrale begreber omkring videregivelse af data og de mulige forretnings- og implementeringsmønstre. Definitionerne introduceres løbende gennem dokumentet og er endvidere opsamlet i [Bilag B: Ord- og begrebsliste](#62-bilag-b-ord--og-begrebsliste).
 
 Videregivelse af data er en grundlæggende kapabilitet og kan dermed relateres til en lang række af konkrete anvendelser, teknologier og arkitekturstile. I dette dokument søger vi at holde beskrivelserne til den generiske begrebs- og funktionsmæssige kerne omkring videregivelse af data. Hvor det er relevant, indeholder dokumentet dog en række kortfattede ”kroge” for at fange relationer og referencer, der går ud over kernebeskrivelserne, uden dog at søge at give udtømmende detaljer eller definitioner.
 
