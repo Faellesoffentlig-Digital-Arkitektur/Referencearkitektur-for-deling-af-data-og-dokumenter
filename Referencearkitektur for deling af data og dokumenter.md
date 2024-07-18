@@ -31,7 +31,11 @@ Figur 1 opsummerer denne referencearkitekturs væsentligste elementer. [Afsnit 3
 
 
 
-![diagram](C:\Users\B293098\Documents\github%20projekter\Referencearkitektur-for-deling-af-data-og-dokumenter\assets\Figur%201.jpg)
+
+
+![Figur2.jpg](C:\Users\B293098\Documents\github%20projekter\Referencearkitektur-for-deling-af-data-og-dokumenter\assets\Figur2.jpg)
+
+![Figur1.jpg](C:\Users\B293098\Documents\github%20projekter\Referencearkitektur-for-deling-af-data-og-dokumenter\assets\Figur1.jpg)
 
 Figur 1 : Oversigt over de væsentligste mønstre i referencearkitektur for deling af data og dokumenter – to generiske forretningsprocesmønstre med hver tre forskellige tekniske implementeringsmønstre.
 
@@ -60,7 +64,7 @@ Figure 2 shows the central elements of this reference architecture. [Section 3 F
 
 ![Figur2.jpg](C:\Users\B293098\Documents\github%20projekter\Referencearkitektur-for-deling-af-data-og-dokumenter\assets\Figur2.jpg)
 
-Figure 2 : Overview of the patterns described in this reference architecture – two generic business patterns, each with three distinct technical implementation patterns.
+Figure 2 : Overview of the patterns described in this reference architecture – two generic business patterns, each with three distinct technical implementation patterns. 
 
 ## 1 Introduktion
 
