@@ -18,7 +18,7 @@ Vi introducerer ikke en specifik og isoleret definition af _data_ – vi regner 
 
 Et af hovedformålene med denne referencearkitektur er at vejlede i valget mellem de to grundlæggende forretningsmønstre for videregivelse af data:
 
-* [_Videregivelse på forespørgsel_ – typisk via et API i system til system-integrationer](#351-videregivelse-p-foresprgsel)
+* [_Videregivelse på forespørgsel_ – typisk via et API i system til system-integrationer](#351-videregivelse-på-foresprgsel)
 * [_Videregivelse ved meddelelse_ indeholdende data (herunder dokumenter)](#352-videregivelse-ved-meddelelse) – typisk brugt ved beskeder til borgere/virksomheder, der skal have retsvirkning, men også et klassisk mønster brugt i system til system-integrationer.
 
 Den fundamentale forskel på disse to scenarier er, om det er den aktør, der _videregiver_ data eller den aktør, der _modtager_ data, der er ansvarlig for den konkrete sagsgang eller det konkrete procesforløb, som videregivelsen af data indgår i.
