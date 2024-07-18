@@ -43,7 +43,7 @@ We do not introduce a specific, isolated definition of _data._ We assume that th
 
 A main purpose of this reference architecture is to guide and assist in the choice between two funda- mental business patterns for disclosure of data by transmission:
 
-* [_Transmission on request_](#351-videregivelse-p-foresprgsel) – typically, system-to-system integrations using an API
+* [_Transmission on request_](#351-videregivelse-på-forespørgsel) – typically, system-to-system integrations using an API
 * [_Transmission by message_](#352-videregivelse-ved-meddelelse) – typically used in legally binding communication of data (possibly in the form of documents) from public authorities to citizens and businesses, but also a classical pattern used in system to system integrations.
 
 The fundamental difference between these two scenarios is whether it is the actor _transmitting_ data or the actor _receiving_ data who is responsible for the concrete process flow or the management of the concrete case in context of which data is transmitted.
@@ -186,7 +186,7 @@ I [afsnit 3 Forretningsarkitektur](#3-forretningsarkitektur) beskrives forretnin
 
 [Afsnit 4 Teknisk arkitektur](#4-teknisk-arkitektur) beskriver den tekniske arkitektur i form af en række implementeringsmønstre for, hvordan deling af data kan implementeres. Ud fra mønstrene identificeres en række gennemgående integrationssnitflader, der leder op til en analyse af, hvor der er behov for standardisering.
 
-Det er tilstræbt at bygge dokumentet op omkring enkle og relativt stramt definerede termer, der beskriver de centrale begreber omkring videregivelse af data og de mulige forretnings- og implementeringsmønstre. Definitionerne introduceres løbende gennem dokumentet og er endvidere opsamlet i [Bilag B: Ord- og begrebsliste](#6-2-bilag-b-ord-og-begrebsliste).
+Det er tilstræbt at bygge dokumentet op omkring enkle og relativt stramt definerede termer, der beskriver de centrale begreber omkring videregivelse af data og de mulige forretnings- og implementeringsmønstre. Definitionerne introduceres løbende gennem dokumentet og er endvidere opsamlet i [Bilag B: Ord- og begrebsliste](#62-bilag-b-ord-og-begrebsliste).
 
 Videregivelse af data er en grundlæggende kapabilitet og kan dermed relateres til en lang række af konkrete anvendelser, teknologier og arkitekturstile. I dette dokument søger vi at holde beskrivelserne til den generiske begrebs- og funktionsmæssige kerne omkring videregivelse af data. Hvor det er relevant, indeholder dokumentet dog en række kortfattede ”kroge” for at fange relationer og referencer, der går ud over kernebeskrivelserne, uden dog at søge at give udtømmende detaljer eller definitioner.
 
