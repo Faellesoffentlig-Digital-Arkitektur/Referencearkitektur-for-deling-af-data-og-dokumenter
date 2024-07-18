@@ -31,7 +31,7 @@ Figur 1 opsummerer denne referencearkitekturs væsentligste elementer. [Afsnit 3
 
 
 
-![Figur1.jpg](C:\Users\B293098\Documents\github%20projekter\Referencearkitektur-for-deling-af-data-og-dokumenter\assets\Figur1.jpg)
+![Figur1](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-deling-af-data-og-dokumenter/raw/main/assets/Figur1.jpg)
 
 Figur 1 : Oversigt over de væsentligste mønstre i referencearkitektur for deling af data og dokumenter – to generiske forretningsprocesmønstre med hver tre forskellige tekniske implementeringsmønstre.
 
