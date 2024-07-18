@@ -121,6 +121,7 @@ Vi vil i denne referencearkitektur ikke give en komplet udredning af forskelle o
 
 
 ![Figur3](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-deling-af-data-og-dokumenter/raw/main/assets/Figur3.jpg)
+
 Figur 3 : Figuren beskriver, hvordan data opbevares i datasamlinger og videregives i form af meddelelser, samt at dokumenter er en særlig form for data. Denne referencearkitektur beskæftiger sig generelt med data som en samlende betegnelse for både data og dokumenter.
 
 Figur 3 viser de centrale begreber i denne referencearkitektur, hvor data ikke overraskende ligger i midten. I afsnit 3 Forretningsarkitektur foldes begrebsmodelleringen yderligere ud, både i en diskussion af data og dokumenter samt i en overordnet model af forretningsobjekter og begreber, der er nødvendige for at beskrive videregivelse af data.
@@ -473,6 +474,7 @@ I ovenstående diagram over centrale use cases er videregivelse den væsentligst
 
 
 ![Figur7](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-deling-af-data-og-dokumenter/raw/main/assets/Figur7.jpg)
+
 Figur 7: Overblik over de centrale processer for videregivelse af data og deres aktiviteter fordelt på roller
 
 Nedenfor er de to grundvarianter for videregivelse af data, videregivelse på forespørgsel og videregivelse ved meddelelse, beskrevet i detaljer. Registrering af data er ligeledes beskrevet, dog mere summarisk, da den i kontekst af denne referencearkitektur kun er med af referencehensyn.
@@ -835,6 +837,7 @@ Hvis man som afsender har en bred og/eller varierende modtager-kreds på de medd
 
 
 ![Figur14](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-deling-af-data-og-dokumenter/raw/main/assets/Figur14.jpg)
+
 Figur 14: Implementeringsmønster for fælles system
 
 Ved brug af Fælles system-mønsteret til forsendelse af en meddelelse benytter afsender og modtager en fælles forsendelsesservice til at sende meddelelsen, modtage den og eventuelt også læse den. I den analoge verden svarer dette mønster til, at afsender og modtager benytter et fælles postbokskontor. Digitalt er dette mønster fx implementeret af Digital Post, hvor såvel myndigheder, virksomheder og borgere kan placere meddelelser, der efterfølgende kan hentes af modtager. Også messaging-funktionaliteten i mange af de sociale medieplatforme (fx Facebook) falder i denne kategori.
@@ -862,6 +865,7 @@ Hvis man som afsender/modtager ønsker at etablere videregivelse af data ved med
 
 
 ![Figur15](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-deling-af-data-og-dokumenter/raw/main/assets/Figur15.jpg)
+
 Figur 15: Implementeringsmønster for servicefællesskab.
 
 I dette mønster deltager både afsender og modtager i et meddelelses-fællesskab ved at vælge hver sin ser- viceudbyder (eng. _service provider_ ) til forsendelse. Alle service providers indgår på forhånd i en infrastruktur i form af et aftalemæssigt og teknisk servicefællesskab, der bl.a. garanterer fuld interoperabilitet i distributi- onen. Mønsteret er bl.a. kendt i kontekst af den europæiske eDelivery-standard som en _four corner model_.
