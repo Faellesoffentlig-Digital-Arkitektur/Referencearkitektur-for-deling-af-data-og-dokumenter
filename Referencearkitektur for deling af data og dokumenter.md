@@ -29,8 +29,6 @@ Ved videregivelse ved meddelelse er det afsenderen, der i en given kontekst afse
 
 Figur 1 opsummerer denne referencearkitekturs væsentligste elementer. [Afsnit 3 Forretningsarkitektur](#3-forretningsarkitektur) beskriver de to forretningsmønstre i yderligere detaljer. For hvert forretningsmønster er der tre mulige implementeringsmønstre. Disse foldes ud i [afsnit 4 Teknisk arkitektur](#4-teknisk-arkitektur), der også udpeger de gennemgående integrationssnitflader, der er kandidater til standardisering.
 
-
-
 ![Figur1](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-deling-af-data-og-dokumenter/raw/main/assets/Figur1.jpg)
 
 Figur 1 : Oversigt over de væsentligste mønstre i referencearkitektur for deling af data og dokumenter – to generiske forretningsprocesmønstre med hver tre forskellige tekniske implementeringsmønstre.
