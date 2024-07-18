@@ -58,7 +58,7 @@ Figure 2 shows the central elements of this reference architecture. [Section 3 F
 
 
 
-![Figur2.jpg](C:\Users\B293098\Documents\github%20projekter\Referencearkitektur-for-deling-af-data-og-dokumenter\assets\Figur2.jpg)
+![Figur2](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-deling-af-data-og-dokumenter/raw/main/assets/Figur2.jpg)
 
 Figure 2 : Overview of the patterns described in this reference architecture – two generic business patterns, each with three distinct technical implementation patterns. 
 
@@ -120,8 +120,7 @@ Vi vil i denne referencearkitektur ikke give en komplet udredning af forskelle o
 
 
 
-![Figur 3.jpg](C:\Users\B293098\Documents\github%20projekter\Referencearkitektur-for-deling-af-data-og-dokumenter\assets\Figur%203.jpg)
-
+![Figur3](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-deling-af-data-og-dokumenter/raw/main/assets/Figur3.jpg)
 Figur 3 : Figuren beskriver, hvordan data opbevares i datasamlinger og videregives i form af meddelelser, samt at dokumenter er en særlig form for data. Denne referencearkitektur beskæftiger sig generelt med data som en samlende betegnelse for både data og dokumenter.
 
 Figur 3 viser de centrale begreber i denne referencearkitektur, hvor data ikke overraskende ligger i midten. I afsnit 3 Forretningsarkitektur foldes begrebsmodelleringen yderligere ud, både i en diskussion af data og dokumenter samt i en overordnet model af forretningsobjekter og begreber, der er nødvendige for at beskrive videregivelse af data.
@@ -378,7 +377,7 @@ Som beskrevet i afsnit 1 har vi præciseret scope for dette dokument til at drej
 
 
 
-![Figur 4.jpg](C:\Users\B293098\Documents\github%20projekter\Referencearkitektur-for-deling-af-data-og-dokumenter\assets\Figur%204.jpg)
+![Figur4](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-deling-af-data-og-dokumenter/raw/main/assets/Figur4.jpg)
 
 Figur 4 : Anvendelse af data falder i to kategorier: Behandling af data i forbindelse med sagsbehandling, der typisk udgør den primære årsag til registrering af persondata, og anden, sekundær behandling. Sags- behandling skal her forstås bredt og inkluderer fx patientforløb i sundhedssektoren. Den særlige marke- ring af offentlig selvbetjening indikerer, at dette emne er specifikt håndteret inden for Den fællesoffentlige digitaliseringsstrategi 2016-2020 i og med, at det har sin egen referencearkitektur for selvbetjeningsløs- ninger, der indgår i den fællesoffentlige rammearkitektur.
 
@@ -402,7 +401,7 @@ Figur 5 viser de centrale begreber i denne referencearkitektur, hvor data ikke o
 
 
 
-![Figur 5.jpg](C:\Users\B293098\Documents\github%20projekter\Referencearkitektur-for-deling-af-data-og-dokumenter\assets\Figur%205.jpg)
+![Figur5](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-deling-af-data-og-dokumenter/raw/main/assets/Figur5.jpg)
 
 Figur 5 : Begrebet data er noget, der enten har form af et dokument (og evt. kan opbevares i et reposi- tory), eller har form af en registrering, der indgår i et register. Begrebsmæssigt indgår data i samlinger og kan - evt. i form af et dokument - videregives i en meddelelse.
 
@@ -435,7 +434,7 @@ samt yderligere to use cases, der ikke er beskrevet uddybende i denne referencea
 
 
 
-![Figur 6.jpg](C:\Users\B293098\Documents\github%20projekter\Referencearkitektur-for-deling-af-data-og-dokumenter\assets\Figur%206.jpg)
+![Figur6](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-deling-af-data-og-dokumenter/raw/main/assets/Figur6.jpg)
 
 Figur 6 : Den delte use case videregivelse , de relaterede use cases registrering og sletning og arkivering samt de funktioner, der er knyttet til de involverede roller, modelleret med relevante juridiske roller og forret- ningsmæssige funktioner.
 
@@ -473,8 +472,7 @@ I ovenstående diagram over centrale use cases er videregivelse den væsentligst
 
 
 
-![Figur 7.jpg](C:\Users\B293098\Documents\github%20projekter\Referencearkitektur-for-deling-af-data-og-dokumenter\assets\Figur%207.jpg)
-
+![Figur7](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-deling-af-data-og-dokumenter/raw/main/assets/Figur7.jpg)
 Figur 7: Overblik over de centrale processer for videregivelse af data og deres aktiviteter fordelt på roller
 
 Nedenfor er de to grundvarianter for videregivelse af data, videregivelse på forespørgsel og videregivelse ved meddelelse, beskrevet i detaljer. Registrering af data er ligeledes beskrevet, dog mere summarisk, da den i kontekst af denne referencearkitektur kun er med af referencehensyn.
@@ -597,7 +595,7 @@ Når processerne omkring videregivelse af data skal implementeres, er der en ræ
 
 
 
-![Figur 8.jpg](C:\Users\B293098\Documents\github%20projekter\Referencearkitektur-for-deling-af-data-og-dokumenter\assets\Figur%208.jpg)
+![Figur8](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-deling-af-data-og-dokumenter/raw/main/assets/Figur8.jpg)
 
 Figur 8 : Model med centrale begreber omkring videregivelse af data
 
@@ -656,7 +654,7 @@ Derudover kan der indgå andre, understøttende services i en given løsning til
 
 
 
-![Figur 9.jpg](C:\Users\B293098\Documents\github%20projekter\Referencearkitektur-for-deling-af-data-og-dokumenter\assets\Figur%209.jpg)
+![Figur9](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-deling-af-data-og-dokumenter/raw/main/assets/Figur9.jpg)
 
 Figur 9 : Oversigt over de fem nødvendige applikationsservices til understøttelse af videregivelse af data, både på forespørgsel og ved meddelelse.
 
@@ -724,7 +722,7 @@ Hvis målet for en anvender er at benytte data fra en specifik datasamling hos e
 
 
 
-![Figur 10.jpg](C:\Users\B293098\Documents\github%20projekter\Referencearkitektur-for-deling-af-data-og-dokumenter\assets\Figur%2010.jpg)
+![Figur10](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-deling-af-data-og-dokumenter/raw/main/assets/Figur10.jpg)
 
 Figur 10: Implementeringsmønster for direkte adgang til en datasamling
 
@@ -742,7 +740,7 @@ Hvis man ønsker en situation, hvor anvender kan hente data fra en dedikeret dat
 
 
 
-![Figur 11.jpg](C:\Users\B293098\Documents\github%20projekter\Referencearkitektur-for-deling-af-data-og-dokumenter\assets\Figur%2011.jpg)
+![Figur11](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-deling-af-data-og-dokumenter/raw/main/assets/Figur11.jpg)
 
 Figur 11: Implementeringsmønster, der introducerer en datadistributør
 
@@ -786,7 +784,7 @@ Hvis man ønsker at benytte en dedikeret infrastrukturkomponent til distribution
 
 
 
-![Figur 12.jpg](C:\Users\B293098\Documents\github%20projekter\Referencearkitektur-for-deling-af-data-og-dokumenter\assets\Figur%2012.jpg)
+![Figur12](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-deling-af-data-og-dokumenter/raw/main/assets/Figur12.jpg)
 
 Figur 12: Implementeringsmønster for fælles service- og dataplatform
 
@@ -816,7 +814,7 @@ Hvis målet er at kunne sende meddelelser fra en afsender til få, kendte modtag
 
 
 
-![Figur 13.jpg](C:\Users\B293098\Documents\github%20projekter\Referencearkitektur-for-deling-af-data-og-dokumenter\assets\Figur%2013.jpg)
+![Figur13](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-deling-af-data-og-dokumenter/raw/main/assets/Figur13.jpg)
 
 Figur 13: Implementeringsmønster for direkte forsendelse
 
@@ -836,8 +834,7 @@ Hvis man som afsender har en bred og/eller varierende modtager-kreds på de medd
 
 
 
-![Figur 14.jpg](C:\Users\B293098\Documents\github%20projekter\Referencearkitektur-for-deling-af-data-og-dokumenter\assets\Figur%2014.jpg)
-
+![Figur14](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-deling-af-data-og-dokumenter/raw/main/assets/Figur14.jpg)
 Figur 14: Implementeringsmønster for fælles system
 
 Ved brug af Fælles system-mønsteret til forsendelse af en meddelelse benytter afsender og modtager en fælles forsendelsesservice til at sende meddelelsen, modtage den og eventuelt også læse den. I den analoge verden svarer dette mønster til, at afsender og modtager benytter et fælles postbokskontor. Digitalt er dette mønster fx implementeret af Digital Post, hvor såvel myndigheder, virksomheder og borgere kan placere meddelelser, der efterfølgende kan hentes af modtager. Også messaging-funktionaliteten i mange af de sociale medieplatforme (fx Facebook) falder i denne kategori.
@@ -864,8 +861,7 @@ Hvis man som afsender/modtager ønsker at etablere videregivelse af data ved med
 
 
 
-![Figur 15.jpg](C:\Users\B293098\Documents\github%20projekter\Referencearkitektur-for-deling-af-data-og-dokumenter\assets\Figur%2015.jpg)
-
+![Figur15](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-deling-af-data-og-dokumenter/raw/main/assets/Figur15.jpg)
 Figur 15: Implementeringsmønster for servicefællesskab.
 
 I dette mønster deltager både afsender og modtager i et meddelelses-fællesskab ved at vælge hver sin ser- viceudbyder (eng. _service provider_ ) til forsendelse. Alle service providers indgår på forhånd i en infrastruktur i form af et aftalemæssigt og teknisk servicefællesskab, der bl.a. garanterer fuld interoperabilitet i distributi- onen. Mønsteret er bl.a. kendt i kontekst af den europæiske eDelivery-standard som en _four corner model_.
@@ -890,7 +886,7 @@ I de ovenstående mønstre er der introduceret en række yderligere services, de
 
 
 
-![Figur 16.jpg](C:\Users\B293098\Documents\github%20projekter\Referencearkitektur-for-deling-af-data-og-dokumenter\assets\Figur%2016.jpg)
+![Figur16](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-deling-af-data-og-dokumenter/raw/main/assets/Figur16.jpg)
 
 Figur 16: Det minimale sæt af applikationsservices, der er nødvendige for at kunne videregive data, samt øvrige, understøttende applikationsservices, der kan være fordelagtige at implementere i en given løsning
 
@@ -1174,7 +1170,7 @@ Eksemplet tager udgangspunkt i brugerrejsen ”jagttegns-aspirant under 18 år �
 
 
 
-![Figur 17.jpg](C:\Users\B293098\Documents\github%20projekter\Referencearkitektur-for-deling-af-data-og-dokumenter\assets\Figur%2017.jpg)
+![Figur17](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-deling-af-data-og-dokumenter/raw/main/assets/Figur17.jpg)
 
 Figur 17 : Indledende skitse til en løsning, der involverer videregivelse af data. Det (fiktive) eksempel beskriver bru- gerrejsen ”jagttegns-aspirant under 18 år ønsker at tilmelde sig jagtprøve”.
 
@@ -1222,7 +1218,7 @@ Ved at anvende Referencearkitektur for deling af data og dokumenter (samt de øv
 
 
 
-![Figur 18.jpg](C:\Users\B293098\Documents\github%20projekter\Referencearkitektur-for-deling-af-data-og-dokumenter\assets\Figur%2018.jpg)
+![Figur18](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-deling-af-data-og-dokumenter/raw/main/assets/Figur18.jpg)
 
 Figur 18 : En mere detaljeret løsningsskitse, der er kvalificeret med begreber og implementeringsmønstre hentet fra Referencearkitektur for deling af data og dokumenter.
 
@@ -1267,25 +1263,25 @@ Referencearkitektur for deling af data og dokumenter indgår i den fællesoffent
 
 
 
-![Figur 19.jpg](C:\Users\B293098\Documents\github%20projekter\Referencearkitektur-for-deling-af-data-og-dokumenter\assets\Figur%2019.jpg)
+![Figur19](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-deling-af-data-og-dokumenter/raw/main/assets/Figur19.jpg)
 
 Figur 19 : EIRA Legal View: De væsentligste elementer fra et lovmæssigt perspektiv
 
 
 
-![Figur 20.jpg](C:\Users\B293098\Documents\github%20projekter\Referencearkitektur-for-deling-af-data-og-dokumenter\assets\Figur%2020.jpg)
+![Figur20](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-deling-af-data-og-dokumenter/raw/main/assets/Figur20.jpg)
 
 Figur 20 : EIRA Organisational View: De væsentligste elementer på det forretningsmæssige/organisatoriske inter- operabilitetsniveau
 
 
 
-![Figur 21.jpg](C:\Users\B293098\Documents\github%20projekter\Referencearkitektur-for-deling-af-data-og-dokumenter\assets\Figur%2021.jpg)
+![Figur21](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-deling-af-data-og-dokumenter/raw/main/assets/Figur21.jpg)
 
 Figur 21 : EIRA Semantic View: De væsentligste elementer i det semantiske lag af interoperabilitet
 
 
 
-![Figur 22.jpg](C:\Users\B293098\Documents\github%20projekter\Referencearkitektur-for-deling-af-data-og-dokumenter\assets\Figur%2022.jpg)
+![Figur22](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-deling-af-data-og-dokumenter/raw/main/assets/Figur22.jpg)
 
 Figur 22 : EIRA Technical View: De væsentligste elementer til at understøtte deling af data og dokumenter fra det tekniske perspektiv
 
