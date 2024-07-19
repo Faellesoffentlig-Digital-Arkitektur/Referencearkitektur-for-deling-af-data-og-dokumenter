@@ -31,7 +31,7 @@ Figur 1 opsummerer denne referencearkitekturs væsentligste elementer. [Afsnit 3
 
 ![Figur1](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-deling-af-data-og-dokumenter/raw/main/assets/Figur1.jpg)
 
-Figur 1 : Oversigt over de væsentligste mønstre i referencearkitektur for deling af data og dokumenter – to generiske forretningsprocesmønstre med hver tre forskellige tekniske implementeringsmønstre.
+_Figur 1 : Oversigt over de væsentligste mønstre i referencearkitektur for deling af data og dokumenter – to generiske forretningsprocesmønstre med hver tre forskellige tekniske implementeringsmønstre._
 
 ## Executive summary
 
@@ -58,7 +58,7 @@ Figure 2 shows the central elements of this reference architecture. [Section 3 F
 
 ![Figur2](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-deling-af-data-og-dokumenter/raw/main/assets/Figur2.jpg)
 
-Figure 2 : Overview of the patterns described in this reference architecture – two generic business patterns, each with three distinct technical implementation patterns. 
+_Figure 2 : Overview of the patterns described in this reference architecture – two generic business patterns, each with three distinct technical implementation patterns. _
 
 ## 1 Introduktion
 
@@ -120,7 +120,7 @@ Vi vil i denne referencearkitektur ikke give en komplet udredning af forskelle o
 
 ![Figur3](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-deling-af-data-og-dokumenter/raw/main/assets/Figur3.jpg)
 
-Figur 3 : Figuren beskriver, hvordan data opbevares i datasamlinger og videregives i form af meddelelser, samt at dokumenter er en særlig form for data. Denne referencearkitektur beskæftiger sig generelt med data som en samlende betegnelse for både data og dokumenter.
+_Figur 3 : Figuren beskriver, hvordan data opbevares i datasamlinger og videregives i form af meddelelser, samt at dokumenter er en særlig form for data. Denne referencearkitektur beskæftiger sig generelt med data som en samlende betegnelse for både data og dokumenter._
 
 Figur 3 viser de centrale begreber i denne referencearkitektur, hvor data ikke overraskende ligger i midten. I afsnit 3 Forretningsarkitektur foldes begrebsmodelleringen yderligere ud, både i en diskussion af data og dokumenter samt i en overordnet model af forretningsobjekter og begreber, der er nødvendige for at beskrive videregivelse af data.
 
@@ -378,7 +378,7 @@ Som beskrevet i afsnit 1 har vi præciseret scope for dette dokument til at drej
 
 ![Figur4](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-deling-af-data-og-dokumenter/raw/main/assets/Figur4.jpg)
 
-Figur 4 : Anvendelse af data falder i to kategorier: Behandling af data i forbindelse med sagsbehandling, der typisk udgør den primære årsag til registrering af persondata, og anden, sekundær behandling. Sags- behandling skal her forstås bredt og inkluderer fx patientforløb i sundhedssektoren. Den særlige marke- ring af offentlig selvbetjening indikerer, at dette emne er specifikt håndteret inden for Den fællesoffentlige digitaliseringsstrategi 2016-2020 i og med, at det har sin egen referencearkitektur for selvbetjeningsløs- ninger, der indgår i den fællesoffentlige rammearkitektur.
+_Figur 4 : Anvendelse af data falder i to kategorier: Behandling af data i forbindelse med sagsbehandling, der typisk udgør den primære årsag til registrering af persondata, og anden, sekundær behandling. Sags- behandling skal her forstås bredt og inkluderer fx patientforløb i sundhedssektoren. Den særlige marke- ring af offentlig selvbetjening indikerer, at dette emne er specifikt håndteret inden for Den fællesoffentlige digitaliseringsstrategi 2016-2020 i og med, at det har sin egen referencearkitektur for selvbetjeningsløs- ninger, der indgår i den fællesoffentlige rammearkitektur._
 
 Figuren ovenfor illustrerer, at anvendelsen af delte data kan deles ind i to kategorier: Den primære an- vendelse, som består af behandling af data i forbindelse med en sagsgang, som oftest vil være det formål, data er indsamlet til. Primære anvendelser er typisk knyttet til sagsbehandling, borgerens/virksomhedens selvbetjening eller til forskellige, private tjenester, der gør brug af delte data.
 
@@ -402,7 +402,7 @@ Figur 5 viser de centrale begreber i denne referencearkitektur, hvor data ikke o
 
 ![Figur5](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-deling-af-data-og-dokumenter/raw/main/assets/Figur5.jpg)
 
-Figur 5 : Begrebet data er noget, der enten har form af et dokument (og evt. kan opbevares i et reposi- tory), eller har form af en registrering, der indgår i et register. Begrebsmæssigt indgår data i samlinger og kan - evt. i form af et dokument - videregives i en meddelelse.
+_Figur 5 : Begrebet data er noget, der enten har form af et dokument (og evt. kan opbevares i et reposi- tory), eller har form af en registrering, der indgår i et register. Begrebsmæssigt indgår data i samlinger og kan - evt. i form af et dokument - videregives i en meddelelse._
 
 Vi vil i stedet tale om data ud fra de relationer, der er afbildet i figuren. Har man fx mange, ens struktu- rerede data samlet samme sted, indgår data i en samling. En datasamling vil typisk have en standardiseret måde, hvorpå man kan hente data på forespørgsel.
 
@@ -435,7 +435,7 @@ samt yderligere to use cases, der ikke er beskrevet uddybende i denne referencea
 
 ![Figur6](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-deling-af-data-og-dokumenter/raw/main/assets/Figur6.jpg)
 
-Figur 6 : Den delte use case videregivelse , de relaterede use cases registrering og sletning og arkivering samt de funktioner, der er knyttet til de involverede roller, modelleret med relevante juridiske roller og forret- ningsmæssige funktioner.
+_Figur 6 : Den delte use case videregivelse , de relaterede use cases registrering og sletning og arkivering samt de funktioner, der er knyttet til de involverede roller, modelleret med relevante juridiske roller og forret- ningsmæssige funktioner._
 
 ### 3.4 Forretningsroller og aktører
 
@@ -473,7 +473,7 @@ I ovenstående diagram over centrale use cases er videregivelse den væsentligst
 
 ![Figur7](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-deling-af-data-og-dokumenter/raw/main/assets/Figur7.jpg)
 
-Figur 7: Overblik over de centrale processer for videregivelse af data og deres aktiviteter fordelt på roller
+_Figur 7: Overblik over de centrale processer for videregivelse af data og deres aktiviteter fordelt på roller_
 
 Nedenfor er de to grundvarianter for videregivelse af data, videregivelse på forespørgsel og videregivelse ved meddelelse, beskrevet i detaljer. Registrering af data er ligeledes beskrevet, dog mere summarisk, da den i kontekst af denne referencearkitektur kun er med af referencehensyn.
 
@@ -597,7 +597,7 @@ Når processerne omkring videregivelse af data skal implementeres, er der en ræ
 
 ![Figur8](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-deling-af-data-og-dokumenter/raw/main/assets/Figur8.jpg)
 
-Figur 8 : Model med centrale begreber omkring videregivelse af data
+_Figur 8 : Model med centrale begreber omkring videregivelse af data_
 
 Denne referencearkitektur definerer en række forretningsobjekter, uden at gøre dem til genstand for en decideret datamodellering. Specifikationen af nogle af disse vil følge af de standarder, tekniske specifi- kationer og anvendelsesprofiler, der vælges i den konkrete implementering. Andre vil kunne modelleres inden for et enkelt domæne. Og endelig vil nogle kunne modelleres i et fællesoffentligt domæne. Beslutninger herom overlades til en yderlig konkretisering af visionen for den fællesoffentlige digitale infrastruktur.
 
@@ -656,7 +656,7 @@ Derudover kan der indgå andre, understøttende services i en given løsning til
 
 ![Figur9](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-deling-af-data-og-dokumenter/raw/main/assets/Figur9.jpg)
 
-Figur 9 : Oversigt over de fem nødvendige applikationsservices til understøttelse af videregivelse af data, både på forespørgsel og ved meddelelse.
+_Figur 9 : Oversigt over de fem nødvendige applikationsservices til understøttelse af videregivelse af data, både på forespørgsel og ved meddelelse._
 
 De indgående applikationsservices kan på kort form defineres som:
 
@@ -724,7 +724,7 @@ Hvis målet for en anvender er at benytte data fra en specifik datasamling hos e
 
 ![Figur10](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-deling-af-data-og-dokumenter/raw/main/assets/Figur10.jpg)
 
-Figur 10: Implementeringsmønster for direkte adgang til en datasamling
+_Figur 10: Implementeringsmønster for direkte adgang til en datasamling_
 
 I dette mønster, som er simpelt og måske det mest klassiske, er det dataansvarlig, der selv udstiller sin datasamling (gennem en simpel dataservice, der for overblikkets skyld er udeladt på Figur 10 ) for at tilbyde en anvender at få adgang til data via en service-orienteret snitflade. Dataansvarlig er også ansvarlig for at betjene den registreredes forespørgsler om indsigt i den dataansvarliges og alle dataanvenderes brug af personlige data ved at registrere anvendelse af data i en log. (Hvordan, log-informationerne gøres tilgængelige for den registrerede er ikke defineret nærmere her – se diskussion af portal-komponenten i afsnit 4.2.2.)
 
@@ -742,7 +742,7 @@ Hvis man ønsker en situation, hvor anvender kan hente data fra en dedikeret dat
 
 ![Figur11](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-deling-af-data-og-dokumenter/raw/main/assets/Figur11.jpg)
 
-Figur 11: Implementeringsmønster, der introducerer en datadistributør
+_Figur 11: Implementeringsmønster, der introducerer en datadistributør_
 
 I dette mønster er dataansvarlig fortsat ansvarlig for at tilbyde en service til registrering af data. Udstillin- gen af data overfor anvendere varetages derimod af en datadistributør (evt. flere). Dette giver datadistribu- tøren mulighed for at fokusere netop på distributionen, dvs. at gøre data bredt tilgængelige for dataan- vendere – dog naturligvis under håndhævelse af adgangskrav specificeret af dataansvarlig. I databeskyttelsesforordningstermer er datadistributøren dermed en databehandler.
 
@@ -786,7 +786,7 @@ Hvis man ønsker at benytte en dedikeret infrastrukturkomponent til distribution
 
 ![Figur12](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-deling-af-data-og-dokumenter/raw/main/assets/Figur12.jpg)
 
-Figur 12: Implementeringsmønster for fælles service- og dataplatform
+_Figur 12: Implementeringsmønster for fælles service- og dataplatform_
 
 Figuren viser, hvordan deling i dette mønster er håndteret af en fælles dataplatform. Platformen er distri- bueret og er i stand til at replikere data på tværs af dataansvarlige og dataanvendere. Dvs., at data, der registreres via en dataansvarlig myndighed, gøres tilgængelige for andre, dataanvendende myndigheder via platformen.
 
@@ -816,7 +816,7 @@ Hvis målet er at kunne sende meddelelser fra en afsender til få, kendte modtag
 
 ![Figur13](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-deling-af-data-og-dokumenter/raw/main/assets/Figur13.jpg)
 
-Figur 13: Implementeringsmønster for direkte forsendelse
+_Figur 13: Implementeringsmønster for direkte forsendelse_
 
 Figuren viser de to procestrin ’afsend meddelelse’ og ’modtag meddelelse’ hos hhv. afsender og modtager. Begge trin må understøttes af en lokal forsendelse-service, der kan tale direkte med modpartens, så der skal på forhånd være enighed mellem de to parter om, hvordan distributionen realiseres. Procestrinet ’adresser meddelelse’ er ikke medtaget, da der ikke er nogen fælles understøttelse af dette. Det påhviler dermed parterne selv at sikre modpartens identitet, hvilket typisk vil kræve en bilateral aftale.
 
@@ -836,7 +836,7 @@ Hvis man som afsender har en bred og/eller varierende modtager-kreds på de medd
 
 ![Figur14](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-deling-af-data-og-dokumenter/raw/main/assets/Figur14.jpg)
 
-Figur 14: Implementeringsmønster for fælles system
+_Figur 14: Implementeringsmønster for fælles system_
 
 Ved brug af Fælles system-mønsteret til forsendelse af en meddelelse benytter afsender og modtager en fælles forsendelsesservice til at sende meddelelsen, modtage den og eventuelt også læse den. I den analoge verden svarer dette mønster til, at afsender og modtager benytter et fælles postbokskontor. Digitalt er dette mønster fx implementeret af Digital Post, hvor såvel myndigheder, virksomheder og borgere kan placere meddelelser, der efterfølgende kan hentes af modtager. Også messaging-funktionaliteten i mange af de sociale medieplatforme (fx Facebook) falder i denne kategori.
 
@@ -864,7 +864,7 @@ Hvis man som afsender/modtager ønsker at etablere videregivelse af data ved med
 
 ![Figur15](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-deling-af-data-og-dokumenter/raw/main/assets/Figur15.jpg)
 
-Figur 15: Implementeringsmønster for servicefællesskab.
+_Figur 15: Implementeringsmønster for servicefællesskab._
 
 I dette mønster deltager både afsender og modtager i et meddelelses-fællesskab ved at vælge hver sin ser- viceudbyder (eng. _service provider_ ) til forsendelse. Alle service providers indgår på forhånd i en infrastruktur i form af et aftalemæssigt og teknisk servicefællesskab, der bl.a. garanterer fuld interoperabilitet i distributi- onen. Mønsteret er bl.a. kendt i kontekst af den europæiske eDelivery-standard som en _four corner model_.
 
@@ -890,7 +890,7 @@ I de ovenstående mønstre er der introduceret en række yderligere services, de
 
 ![Figur16](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-deling-af-data-og-dokumenter/raw/main/assets/Figur16.jpg)
 
-Figur 16: Det minimale sæt af applikationsservices, der er nødvendige for at kunne videregive data, samt øvrige, understøttende applikationsservices, der kan være fordelagtige at implementere i en given løsning
+_Figur 16: Det minimale sæt af applikationsservices, der er nødvendige for at kunne videregive data, samt øvrige, understøttende applikationsservices, der kan være fordelagtige at implementere i en given løsning_
 
 Figur 16 giver en samlet oversigt over de applikationsservices, der skal overvejes i forbindelse med videregivelse af data, fordelt på de nødvendige hhv. understøttende applikationsservices. For hver applikationsservice er den generiske snitflade angivet. Da applikationsservices typisk indgår i flere implementeringsmønstre, er det hensigtsmæssigt at kigge på standardisering af operationerne i snitfladerne. Derved opnås en afkobling, der giver større fleksibilitet i forhold til senere redesign af en given løsning, specifikt i forhold til, at et skift til et andet implementeringsmønster vil blive lettere, hvis snitfladen kan opretholdes.
 
@@ -1174,7 +1174,7 @@ Eksemplet tager udgangspunkt i brugerrejsen ”jagttegns-aspirant under 18 år �
 
 ![Figur17](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-deling-af-data-og-dokumenter/raw/main/assets/Figur17.jpg)
 
-Figur 17 : Indledende skitse til en løsning, der involverer videregivelse af data. Det (fiktive) eksempel beskriver bru- gerrejsen ”jagttegns-aspirant under 18 år ønsker at tilmelde sig jagtprøve”.
+_Figur 17 : Indledende skitse til en løsning, der involverer videregivelse af data. Det (fiktive) eksempel beskriver bru- gerrejsen ”jagttegns-aspirant under 18 år ønsker at tilmelde sig jagtprøve”._
 
 Projektet ønsker nu at anvende Referencearkitektur for deling af data og dokumenter for at kvalificere sit løs- ningsdesign og løfte den indledende, rå skitse til et mere modent arkitekturdesign. I denne sammenhæng vælger projektet at gå frem på følgende måde:
 
@@ -1222,7 +1222,7 @@ Ved at anvende Referencearkitektur for deling af data og dokumenter (samt de øv
 
 ![Figur18](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-deling-af-data-og-dokumenter/raw/main/assets/Figur18.jpg)
 
-Figur 18 : En mere detaljeret løsningsskitse, der er kvalificeret med begreber og implementeringsmønstre hentet fra Referencearkitektur for deling af data og dokumenter.
+_Figur 18 : En mere detaljeret løsningsskitse, der er kvalificeret med begreber og implementeringsmønstre hentet fra Referencearkitektur for deling af data og dokumenter._
 
 ### 6.4 Bilag D: Eksempler på løsninger pr. implementeringsmønster
 
@@ -1267,25 +1267,24 @@ Referencearkitektur for deling af data og dokumenter indgår i den fællesoffent
 
 ![Figur19](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-deling-af-data-og-dokumenter/raw/main/assets/Figur19.jpg)
 
-Figur 19 : EIRA Legal View: De væsentligste elementer fra et lovmæssigt perspektiv
+_Figur 19 : EIRA Legal View: De væsentligste elementer fra et lovmæssigt perspektiv_
 
 
 
 ![Figur20](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-deling-af-data-og-dokumenter/raw/main/assets/Figur20.jpg)
 
-Figur 20 : EIRA Organisational View: De væsentligste elementer på det forretningsmæssige/organisatoriske inter- operabilitetsniveau
+_Figur 20 : EIRA Organisational View: De væsentligste elementer på det forretningsmæssige/organisatoriske inter- operabilitetsniveau_
 
 
 
 ![Figur21](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-deling-af-data-og-dokumenter/raw/main/assets/Figur21.jpg)
 
-Figur 21 : EIRA Semantic View: De væsentligste elementer i det semantiske lag af interoperabilitet
-
+_Figur 21 : EIRA Semantic View: De væsentligste elementer i det semantiske lag af interoperabilitet_
 
 
 ![Figur22](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-deling-af-data-og-dokumenter/raw/main/assets/Figur22.jpg)
 
-Figur 22 : EIRA Technical View: De væsentligste elementer til at understøtte deling af data og dokumenter fra det tekniske perspektiv
+_Figur 22 : EIRA Technical View: De væsentligste elementer til at understøtte deling af data og dokumenter fra det tekniske perspektiv_
 
 ### 6.7 Bilag G: Oversigt over kilder og baggrundsmateriale
 
