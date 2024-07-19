@@ -58,7 +58,7 @@ Figure 2 shows the central elements of this reference architecture. [Section 3 F
 
 ![Figur2](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-deling-af-data-og-dokumenter/raw/main/assets/Figur2.jpg)
 
-_Figure 2 : Overview of the patterns described in this reference architecture – two generic business patterns, each with three distinct technical implementation patterns. _
+_Figure 2 : Overview of the patterns described in this reference architecture – two generic business patterns, each with three distinct technical implementation patterns._
 
 ## 1 Introduktion
 
