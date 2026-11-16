@@ -27,7 +27,7 @@ Ved videregivelse på forespørgsel er den dataansvarlige som udgangspunkt ikke 
 
 Ved videregivelse ved meddelelse er det afsenderen, der i en given kontekst afsender en meddelelse med et givent formål – typisk som led i afviklingen af en arbejdsgang, der enten kan være manuel eller automatiseret. Et eksempel på dette er politiets fremsendelse af en fartbøde til en borger.
 
-Figur 1 opsummerer denne referencearkitekturs væsentligste elementer. [Afsnit 3 Forretningsarkitektur](#3-forretningsarkitektur) beskriver de to forretningsmønstre i yderligere detaljer. For hvert forretningsmønster er der tre mulige implementeringsmønstre. Disse foldes ud i [afsnit 4 Teknisk arkitektur](#4-teknisk-arkitektur), der også udpeger de gennemgående integrationssnitflader, der er kandidater til standardisering.
+Figur 1 opsummerer denne referencearkitekturs væsentligste elementer. [Afsnittet Forretningsarkitektur](#3-forretningsarkitektur) beskriver de to forretningsmønstre i yderligere detaljer. For hvert forretningsmønster er der tre mulige implementeringsmønstre. Disse foldes ud i [afsnittet Teknisk arkitektur](#4-teknisk-arkitektur), der også udpeger de gennemgående integrationssnitflader, der er kandidater til standardisering.
 
 ![Figur1](assets/Figur1.jpg)
 
@@ -92,7 +92,7 @@ Referencearkitekturen skrives på baggrund af Den fællesoffentlige digitaliseri
 
 For at operationalisere, hvilke krav hvidbogen konkret stiller til initiativer og systemer udarbejdes en referencearkitektur for deling af data og dokumenter, der blandt andet beskriver fælles behovsmønstre og mønstre for teknisk understøttelse, herunder de forskellige roller, der skal afklares i initiativerne. Referencearkitekturen udpeger også eventuelle områder for eksisterende og nye fælles standarder og infrastruktur, som skal lette initiativernes implementering. Referencearkitekturen bliver således en generel ramme og støtte for alle initiativernes egen specifikke arkitektur.
 
-I et juridisk perspektiv er dette område reguleret af en lang række forordninger og love. Afsnit 2.5 opridser de relevante love og forordninger, der sætter de juridiske rammer for deling af data og dokumenter.
+I et juridisk perspektiv er dette område reguleret af en lang række forordninger og love. Afsnittet Juridiske rammer opridser de relevante love og forordninger, der sætter de juridiske rammer for deling af data og dokumenter.
 
 Scope for denne referencearkitektur er, som navnet angiver, selve delingen/videregivelsen af data (herunder persondata og evt. i form af dokumenter). Vi søger ikke at definere den bredere _anvendelse_ af data, herunder hvordan data registreres, eller hvordan den aktør (fx en myndighed), der afsender eller modtager data, benytter disse data i en konkret arbejdsgang. Processerne for registrering af data samt afsendelse og modtagelse af en meddelelse er dog summarisk beskrevet for at introducere begreber, der er relevante for at kunne tale om selve delingen/videregivelsen af data.
 
@@ -122,7 +122,7 @@ Vi vil i denne referencearkitektur ikke give en komplet udredning af forskelle o
 
 _Figur 3 : Figuren beskriver, hvordan data opbevares i datasamlinger og videregives i form af meddelelser, samt at dokumenter er en særlig form for data. Denne referencearkitektur beskæftiger sig generelt med data som en samlende betegnelse for både data og dokumenter._
 
-Figur 3 viser de centrale begreber i denne referencearkitektur, hvor data ikke overraskende ligger i midten. I afsnit 3 Forretningsarkitektur foldes begrebsmodelleringen yderligere ud, både i en diskussion af data og dokumenter samt i en overordnet model af forretningsobjekter og begreber, der er nødvendige for at beskrive videregivelse af data.
+Figur 3 viser de centrale begreber i denne referencearkitektur, hvor data ikke overraskende ligger i midten. I afsnittet Forretningsarkitektur foldes begrebsmodelleringen yderligere ud, både i en diskussion af data og dokumenter samt i en overordnet model af forretningsobjekter og begreber, der er nødvendige for at beskrive videregivelse af data.
 
 ### Tilblivelse og governance
 
@@ -178,15 +178,15 @@ Den skal kunne anvendes af:
 
 ### Læsevejledning
 
-Dette dokument følger generelt skabelonen for referencearkitekturer under FDA-rammearkitekturen i Den fællesoffentlige digitaliseringsstrategi 2016-2020. Dokumentets afsnit 1 udgør en generel introduktion til referencearkitekturens formål, scope, de centrale begreber omkring deling af data og dokumenter, og beskriver konteksten for dokumentets anvendelse og tilblivelse.
+Dette dokument følger generelt skabelonen for referencearkitekturer under FDA-rammearkitekturen i Den fællesoffentlige digitaliseringsstrategi 2016-2020. Dokumentets første afsnit, Introduktion, udgør en generel introduktion til referencearkitekturens formål, scope, de centrale begreber omkring deling af data og dokumenter, og beskriver konteksten for dokumentets anvendelse og tilblivelse.
 
-[Afsnit 2 Strategi](#2-strategi) beskriver på det strategiske plan hvilke temaer, principper, love m.m., der sætter rammer og retning for denne referencearkitektur. Afsnittet beskriver visionen for deling af data og dokumenter og afdækker den værdi, som brug af referencearkitekturen forventes at skabe.
+[Afsnittet Strategi](#strategi) beskriver på det strategiske plan hvilke temaer, principper, love m.m., der sætter rammer og retning for denne referencearkitektur. Afsnittet beskriver visionen for deling af data og dokumenter og afdækker den værdi, som brug af referencearkitekturen forventes at skabe.
 
-I [afsnit 3 Forretningsarkitektur](#3-forretningsarkitektur) beskrives forretningen i form af de grundlæggende use cases, roller og ansvar omkring videre- givelse af data. Begrebsmodellen, der fanger de termer, der introduceres i denne referencearkitektur, præsenteres også her.
+I [afsnittet Forretningsarkitektur](#forretningsarkitektur) beskrives forretningen i form af de grundlæggende use cases, roller og ansvar omkring videre- givelse af data. Begrebsmodellen, der fanger de termer, der introduceres i denne referencearkitektur, præsenteres også her.
 
-[Afsnit 4 Teknisk arkitektur](#4-teknisk-arkitektur) beskriver den tekniske arkitektur i form af en række implementeringsmønstre for, hvordan deling af data kan implementeres. Ud fra mønstrene identificeres en række gennemgående integrationssnitflader, der leder op til en analyse af, hvor der er behov for standardisering.
+[AfsnityTeknisk arkitektur](#teknisk-arkitektur) beskriver den tekniske arkitektur i form af en række implementeringsmønstre for, hvordan deling af data kan implementeres. Ud fra mønstrene identificeres en række gennemgående integrationssnitflader, der leder op til en analyse af, hvor der er behov for standardisering.
 
-Det er tilstræbt at bygge dokumentet op omkring enkle og relativt stramt definerede termer, der beskriver de centrale begreber omkring videregivelse af data og de mulige forretnings- og implementeringsmønstre. Definitionerne introduceres løbende gennem dokumentet og er endvidere opsamlet i [Bilag B: Ord- og begrebsliste](#62-bilag-b-ord--og-begrebsliste).
+Det er tilstræbt at bygge dokumentet op omkring enkle og relativt stramt definerede termer, der beskriver de centrale begreber omkring videregivelse af data og de mulige forretnings- og implementeringsmønstre. Definitionerne introduceres løbende gennem dokumentet og er endvidere opsamlet i [Bilag B: Ord- og begrebsliste](#bilag-b-ord--og-begrebsliste).
 
 Videregivelse af data er en grundlæggende kapabilitet og kan dermed relateres til en lang række af konkrete anvendelser, teknologier og arkitekturstile. I dette dokument søger vi at holde beskrivelserne til den generiske begrebs- og funktionsmæssige kerne omkring videregivelse af data. Hvor det er relevant, indeholder dokumentet dog en række kortfattede ”kroge” for at fange relationer og referencer, der går ud over kernebeskrivelserne, uden dog at søge at give udtømmende detaljer eller definitioner.
 
@@ -372,7 +372,7 @@ Dette afsnit beskriver på forretningsniveau de centrale forretningsfunktioner, 
 
 Emnet for denne referencearkitektur er "deling af data og dokumenter". Det er ikke urimeligt at sige, at denne funktion er så generisk, at den indgår i snart sagt alle processer, der går ud over den enkelte myndighed, hvad enten det er i forbindelse med sagsbehandling, selvbetjening eller noget tredje. Over- ordnet set finder referencearkitekturen dermed anvendelse i løsningen af alle offentlige opgaver.
 
-Som beskrevet i afsnit 1 har vi præciseret scope for dette dokument til at dreje sig om selve _videregivelsen_ af data - og ikke de mulige _anvendelser_ , der muliggøres gennem videregivelsen. Vi gør dette ud fra en betragtning om, at typen af denne referencearkitektur er en grundlæggende referencearkitektur. Når det er sagt, er det alligevel meningsfuldt kort at overveje de typiske anvendelser for derigennem at forstå konteksten for videregivelse af data bedre.
+Som beskrevet i første afsnit, Introduktion,  har vi præciseret scope for dette dokument til at dreje sig om selve _videregivelsen_ af data - og ikke de mulige _anvendelser_ , der muliggøres gennem videregivelsen. Vi gør dette ud fra en betragtning om, at typen af denne referencearkitektur er en grundlæggende referencearkitektur. Når det er sagt, er det alligevel meningsfuldt kort at overveje de typiske anvendelser for derigennem at forstå konteksten for videregivelse af data bedre.
 
 
 
@@ -670,13 +670,13 @@ Brugerstyring - forretningsfunktion indeholdende nødvendige applikationsservice
 
 Selvbetjening - applikationsservice, der implementer en sammenhængende række af aktiviteter
 
-Som nævnt i afsnit 1.2 er partsrepræsentation ikke i scope for denne referencearkitektur, og det vil derfor ikke blive foldet yderligere ud. Vi bemærker dog, at emnet er relevant i flere af de ovenstående applika- tionsservices omkring håndhævelse af adgangskontrol, logning af anvendelse, adgang og design af selv- betjeningsløsninger m.m.
+Som nævnt i [afsnittet om Scope](#scope) er partsrepræsentation ikke i scope for denne referencearkitektur, og det vil derfor ikke blive foldet yderligere ud. Vi bemærker dog, at emnet er relevant i flere af de ovenstående applika- tionsservices omkring håndhævelse af adgangskontrol, logning af anvendelse, adgang og design af selv- betjeningsløsninger m.m.
 
 #### Ønskelige egenskaber ved videregivelse (både ved meddelelse og på forespørgsel)
 
 Dette afsnit sætter flere ord på de kvaliteter, der grundlæggende knytter sig til videregivelse af data. De forskellige kvaliteter er her stillet op i sammenhæng med den relevante applikationsservice.
 
-**Datasamling:** En datasamling er et helt centralt begreb i denne referencearkitektur og blev introduceret allerede i afsnit 1.3. Når datasamlingen udgøres af dokumenter, kaldes den et repository. Udgøres den af registreringer, kaldes den et register.
+**Datasamling:** En datasamling er et helt centralt begreb i denne referencearkitektur og blev introduceret allerede i [afsnittet om centrale begreber](#centrale-begreber). Når datasamlingen udgøres af dokumenter, kaldes den et repository. Udgøres den af registreringer, kaldes den et register.
 
 Datasamlinger er kendetegnet ved følgende, ønskede egenskaber:
 
@@ -726,7 +726,7 @@ Hvis målet for en anvender er at benytte data fra en specifik datasamling hos e
 
 _Figur 10: Implementeringsmønster for direkte adgang til en datasamling_
 
-I dette mønster, som er simpelt og måske det mest klassiske, er det dataansvarlig, der selv udstiller sin datasamling (gennem en simpel dataservice, der for overblikkets skyld er udeladt på Figur 10 ) for at tilbyde en anvender at få adgang til data via en service-orienteret snitflade. Dataansvarlig er også ansvarlig for at betjene den registreredes forespørgsler om indsigt i den dataansvarliges og alle dataanvenderes brug af personlige data ved at registrere anvendelse af data i en log. (Hvordan, log-informationerne gøres tilgængelige for den registrerede er ikke defineret nærmere her – se diskussion af portal-komponenten i afsnit 4.2.2.)
+I dette mønster, som er simpelt og måske det mest klassiske, er det dataansvarlig, der selv udstiller sin datasamling (gennem en simpel dataservice, der for overblikkets skyld er udeladt på Figur 10 ) for at tilbyde en anvender at få adgang til data via en service-orienteret snitflade. Dataansvarlig er også ansvarlig for at betjene den registreredes forespørgsler om indsigt i den dataansvarliges og alle dataanvenderes brug af personlige data ved at registrere anvendelse af data i en log. (Hvordan, log-informationerne gøres tilgængelige for den registrerede er ikke defineret nærmere her – se diskussion af portal-komponenten i [afsnittet om datadistributører](#datadistributør).)
 
 Fordelen ved dette mønster er først og fremmest, at det er simpelt. Fra dataansvarligs synspunkt tilbyder mønsteret endvidere en meget tæt kontrol med adgang til data, hvilket måske kan være ønskværdigt.
 
