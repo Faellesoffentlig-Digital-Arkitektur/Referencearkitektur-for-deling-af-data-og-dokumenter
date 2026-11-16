@@ -18,8 +18,8 @@ Vi introducerer ikke en specifik og isoleret definition af _data_ – vi regner 
 
 Et af hovedformålene med denne referencearkitektur er at vejlede i valget mellem de to grundlæggende forretningsmønstre for videregivelse af data:
 
-* [_Videregivelse på forespørgsel_ – typisk via et API i system til system-integrationer](#351-videregivelse-på-forespørgsel)
-* [_Videregivelse ved meddelelse_ indeholdende data (herunder dokumenter)](#352-videregivelse-ved-meddelelse) – typisk brugt ved beskeder til borgere/virksomheder, der skal have retsvirkning, men også et klassisk mønster brugt i system til system-integrationer.
+* [_Videregivelse på forespørgsel_ – typisk via et API i system til system-integrationer](#videregivelse-på-forespørgsel)
+* [_Videregivelse ved meddelelse_ indeholdende data (herunder dokumenter)](#videregivelse-ved-meddelelse) – typisk brugt ved beskeder til borgere/virksomheder, der skal have retsvirkning, men også et klassisk mønster brugt i system til system-integrationer.
 
 Den fundamentale forskel på disse to scenarier er, om det er den aktør, der _videregiver_ data eller den aktør, der _modtager_ data, der er ansvarlig for den konkrete sagsgang eller det konkrete procesforløb, som videregivelsen af data indgår i.
 
@@ -27,7 +27,7 @@ Ved videregivelse på forespørgsel er den dataansvarlige som udgangspunkt ikke 
 
 Ved videregivelse ved meddelelse er det afsenderen, der i en given kontekst afsender en meddelelse med et givent formål – typisk som led i afviklingen af en arbejdsgang, der enten kan være manuel eller automatiseret. Et eksempel på dette er politiets fremsendelse af en fartbøde til en borger.
 
-Figur 1 opsummerer denne referencearkitekturs væsentligste elementer. [Afsnittet Forretningsarkitektur](#3-forretningsarkitektur) beskriver de to forretningsmønstre i yderligere detaljer. For hvert forretningsmønster er der tre mulige implementeringsmønstre. Disse foldes ud i [afsnittet Teknisk arkitektur](#4-teknisk-arkitektur), der også udpeger de gennemgående integrationssnitflader, der er kandidater til standardisering.
+Figur 1 opsummerer denne referencearkitekturs væsentligste elementer. [Afsnittet Forretningsarkitektur](#forretningsarkitektur) beskriver de to forretningsmønstre i yderligere detaljer. For hvert forretningsmønster er der tre mulige implementeringsmønstre. Disse foldes ud i [afsnittet Teknisk arkitektur](#teknisk-arkitektur), der også udpeger de gennemgående integrationssnitflader, der er kandidater til standardisering.
 
 ![Figur1](assets/Figur1.jpg)
 
@@ -41,8 +41,8 @@ We do not introduce a specific, isolated definition of _data._ We assume that th
 
 A main purpose of this reference architecture is to guide and assist in the choice between two funda- mental business patterns for disclosure of data by transmission:
 
-* [_Transmission on request_](#351-videregivelse-på-forespørgsel) – typically, system-to-system integrations using an API
-* [_Transmission by message_](#352-videregivelse-ved-meddelelse) – typically used in legally binding communication of data (possibly in the form of documents) from public authorities to citizens and businesses, but also a classical pattern used in system to system integrations.
+* [_Transmission on request_](#videregivelse-på-forespørgsel) – typically, system-to-system integrations using an API
+* [_Transmission by message_](#videregivelse-ved-meddelelse) – typically used in legally binding communication of data (possibly in the form of documents) from public authorities to citizens and businesses, but also a classical pattern used in system to system integrations.
 
 The fundamental difference between these two scenarios is whether it is the actor _transmitting_ data or the actor _receiving_ data who is responsible for the concrete process flow or the management of the concrete case in context of which data is transmitted.
 
@@ -178,7 +178,7 @@ Den skal kunne anvendes af:
 
 ### Læsevejledning
 
-Dette dokument følger generelt skabelonen for referencearkitekturer under FDA-rammearkitekturen i Den fællesoffentlige digitaliseringsstrategi 2016-2020. Dokumentets første afsnit, Introduktion, udgør en generel introduktion til referencearkitekturens formål, scope, de centrale begreber omkring deling af data og dokumenter, og beskriver konteksten for dokumentets anvendelse og tilblivelse.
+Dette dokument følger generelt skabelonen for referencearkitekturer under FDA-rammearkitekturen i Den fællesoffentlige digitaliseringsstrategi 2016-2020. Dokumentets [første afsnit, Introduktion,](#introduktion) udgør en generel introduktion til referencearkitekturens formål, scope, de centrale begreber omkring deling af data og dokumenter, og beskriver konteksten for dokumentets anvendelse og tilblivelse.
 
 [Afsnittet Strategi](#strategi) beskriver på det strategiske plan hvilke temaer, principper, love m.m., der sætter rammer og retning for denne referencearkitektur. Afsnittet beskriver visionen for deling af data og dokumenter og afdækker den værdi, som brug af referencearkitekturen forventes at skabe.
 
@@ -1031,15 +1031,15 @@ I denne referencearkitektur har vi talt om den registrerede, afsender og modtage
 
 ### Standardisering
 
-Afsnit 4.5 har peget på en række områder, hvor standardisering vil være fordelagtig for at forløse denne referencearkitekturs overordnede mål om at gøre det enklere at dele og genbruge data. I det videre arbejde med at skabe gode rammer for deling af data og dokumenter blandt offentlige myndigheder, virksomheder og borgere i Danmark vil være formålstjenligt at definere initiativer, der kan adressere de standardiseringsbehov, der er identificeret her, gennem yderligere analyse og anbefalinger.
+[Afsnittet om områder for standardisering](#områder-for-standardisering) har peget på en række områder, hvor standardisering vil være fordelagtig for at forløse denne referencearkitekturs overordnede mål om at gøre det enklere at dele og genbruge data. I det videre arbejde med at skabe gode rammer for deling af data og dokumenter blandt offentlige myndigheder, virksomheder og borgere i Danmark vil være formålstjenligt at definere initiativer, der kan adressere de standardiseringsbehov, der er identificeret her, gennem yderligere analyse og anbefalinger.
 
 ### Blockchain
 
-Blockchain er en ny teknologi, der på tidspunktet for dette dokuments udarbejdelse har givet anledning til en trend. Blockchain er baseret på et fuldt distribueret og modifikationssikret datasæt og kendes særligt fra kryptovalutaer (med Bitcoin som den mest kendte). Samtidigt foregår der en afsøgning af blockchain-teknologiens muligheder generelt. I sammenhæng med denne referencearkitektur bemærker vi, at blockchain kan være en måde at implementere integritetssikret anvendelseslog på. Blockchain kan også udgøre en dataplatform som beskrevet i afsnit 4.2.3. Dog vil det medføre, at ikke blot den fysiske platform, men også forretningsrollen ’platformsansvarlig’ bliver distribueret, hvilket vil have konsekvenser fx i forhold til håndhævelse af adgangskontrol, der skal afsøges yderligere.
+Blockchain er en ny teknologi, der på tidspunktet for dette dokuments udarbejdelse har givet anledning til en trend. Blockchain er baseret på et fuldt distribueret og modifikationssikret datasæt og kendes særligt fra kryptovalutaer (med Bitcoin som den mest kendte). Samtidigt foregår der en afsøgning af blockchain-teknologiens muligheder generelt. I sammenhæng med denne referencearkitektur bemærker vi, at blockchain kan være en måde at implementere integritetssikret anvendelseslog på. Blockchain kan også udgøre en dataplatform som beskrevet i [afsnittet om fælles service- og dataplatform](#fælles-service-og-dataplatform) Dog vil det medføre, at ikke blot den fysiske platform, men også forretningsrollen ’platformsansvarlig’ bliver distribueret, hvilket vil have konsekvenser fx i forhold til håndhævelse af adgangskontrol, der skal afsøges yderligere.
 
 ### Øvrige anvendelser af data
 
-Afsnit 3.1 beskriver en række (gen)-anvendelser af data, der rækker ud over digital selvbetjening i offentlige sammenhænge. Der er behov for at understøtte disse anvendelser også, evt. ved at introducere yderligere forretnings- og implementeringsmønstre.
+Afsnittet [Forretningsmæssig kontekst for videregivelse af data](#forretningsmæssig-kontekts-for-videregivese-af-dat) beskriver en række (gen)-anvendelser af data, der rækker ud over digital selvbetjening i offentlige sammenhænge. Der er behov for at understøtte disse anvendelser også, evt. ved at introducere yderligere forretnings- og implementeringsmønstre.
 
 ## Bilag
 
