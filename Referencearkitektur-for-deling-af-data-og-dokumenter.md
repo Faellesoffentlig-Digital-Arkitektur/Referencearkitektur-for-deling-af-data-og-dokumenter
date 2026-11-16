@@ -60,9 +60,9 @@ Figure 2 shows the central elements of this reference architecture. [Section 3 F
 
 _Figure 2 : Overview of the patterns described in this reference architecture – two generic business patterns, each with three distinct technical implementation patterns._
 
-## 1 Introduktion
+## Introduktion
 
-### 1.1 Formål, anvendelse og målgruppe
+### Formål, anvendelse og målgruppe
 
 Det overordnede formål med denne referencearkitektur er at understøtte offentlig digitalisering i regi af Den fællesoffentlige digitaliseringsstrategi 2016-2020. Derudover kan referencearkitekturen anvendes generelt i projekter i både offentlige og private digitaliseringsinitiativer.
 
@@ -84,7 +84,7 @@ De første dele af dokumentet (Strategi og Forretningsmæssig arkitektur) henven
 
 Dokumentet i sin helhed er også relevant for nuværende og potentielle leverandører af offentlige it- løsninger.
 
-### 1.2 Scope
+### Scope
 
 Referencearkitektur for deling af data og dokumenter understøtter design, udvikling/indkøb og anvendelse af offentlige it-systemer, der videregiver eller modtager registrerede oplysninger i elektronisk form til/fra andre myndigheder, virksomheder og borgere.
 
@@ -112,7 +112,7 @@ Partsrepræsentation er en generel problemstilling, der ikke er isoleret til del
 
 I forhold til grænseoverskridende videregivelse af data er mandatet for denne referencearkitektur be- grænset til bestemte initiativer forankret hos de myndigheder, der er del af Den fællesoffentlige digitali- seringsstrategi 2016 - 2020. Mandatet rækker dermed ikke ud over landets grænser.
 
-### 1.3 Centrale begreber
+### Centrale begreber
 
 Vi vil i denne referencearkitektur ikke give en komplet udredning af forskelle og ligheder mellem begreberne _data_, _oplysning_ og _information_ , der bruges meget forskelligt på tværs af faggrupper og praksisser i den offentlige sektor. I stedet vil vi fokusere på en mere pragmatisk og lokal definition og holde os til data som generelt begreb.
 
@@ -124,7 +124,7 @@ _Figur 3 : Figuren beskriver, hvordan data opbevares i datasamlinger og videregi
 
 Figur 3 viser de centrale begreber i denne referencearkitektur, hvor data ikke overraskende ligger i midten. I afsnit 3 Forretningsarkitektur foldes begrebsmodelleringen yderligere ud, både i en diskussion af data og dokumenter samt i en overordnet model af forretningsobjekter og begreber, der er nødvendige for at beskrive videregivelse af data.
 
-### 1.4 Tilblivelse og governance
+### Tilblivelse og governance
 
 Første udgave er udarbejdet i Kontor for Data og Arkitektur, Digitaliseringsstyrelsen med konsulentbistand fra Omnium Improvement.
 
@@ -132,7 +132,7 @@ I udarbejdelsen har en arbejdsgruppe af offentlige arkitekter bidraget gennem en
 
 Første udgave af referencearkitekturen godkendtes i version 1.0 i Styregruppe for Data og Arkitektur under Digitaliseringsstrategien i maj 2018. Styregruppen er herefter ejer af dokumentet, med Kontor for Data og Arkitektur som ansvarlig for vedligehold af referencearkitekturen frem til 2020 som en del af den Fællesoffentlige, Digitale Arkitektur.
 
-### 1.5 Anvendt metode, notation og signaturforklaring
+### Anvendt metode, notation og signaturforklaring
 
 Metodemæssigt er referencearkitekturen udarbejdet inden for rammerne af Den fællesoffentlige digitale arkitektur og følger så vidt muligt den fælles skabelon for referencearkitekturer som udarbejdet i Sekre- tariatet for Styregruppen for Data og Arkitektur under digitaliseringsstrategien. Metoderammen bygger blandt andet på erfaringer fra OIO referencearkitektur, og indarbejder også elementer fra European Interoperability Reference Architecture (EIRA), The Open Group Architecture Framework (TOGAF), ArchiMate m.m.
 
@@ -156,7 +156,7 @@ I elementerne i dokumentets figurer angiver (med mindre anden betydning er angiv
 * Pil med stiplet linje (fra Applikationsservice mod Procestrin): at en Applikationsservice helt eller delvist realiserer et Procestrin ( Realization Relation )
 * "Slikkepind": en Snitflade ( _Application Interface_ )
 
-### 1.6 Relation til rammearkitektur og andre referencearkitekturer
+### Relation til rammearkitektur og andre referencearkitekturer
 
 Denne grundlæggende referencearkitektur er del af rammearkitekturen i den samlede, fællesoffentlige digitale arkitektur (FDA). FDA-rammearkitekturen udfoldes i en række referencearkitekturer, som hver dækker et emnefelt og gensidigt supplerer hinanden. For en introduktion til og overblik over den sam- lede rammearkitektur samt relateret information henvises til arkitektur.digst.dk/rammearkitektur.
 
@@ -176,7 +176,7 @@ Den skal kunne anvendes af:
 * Referencearkitektur for informationssikkerhed (National sundheds-it, 2013)
 * Indberetning til registre på sundhedsområdet (under godkendelse pr. november 2017)
 
-### 1.7 Læsevejledning
+### Læsevejledning
 
 Dette dokument følger generelt skabelonen for referencearkitekturer under FDA-rammearkitekturen i Den fællesoffentlige digitaliseringsstrategi 2016-2020. Dokumentets afsnit 1 udgør en generel introduktion til referencearkitekturens formål, scope, de centrale begreber omkring deling af data og dokumenter, og beskriver konteksten for dokumentets anvendelse og tilblivelse.
 
@@ -190,11 +190,11 @@ Det er tilstræbt at bygge dokumentet op omkring enkle og relativt stramt define
 
 Videregivelse af data er en grundlæggende kapabilitet og kan dermed relateres til en lang række af konkrete anvendelser, teknologier og arkitekturstile. I dette dokument søger vi at holde beskrivelserne til den generiske begrebs- og funktionsmæssige kerne omkring videregivelse af data. Hvor det er relevant, indeholder dokumentet dog en række kortfattede ”kroge” for at fange relationer og referencer, der går ud over kernebeskrivelserne, uden dog at søge at give udtømmende detaljer eller definitioner.
 
-## 2 Strategi
+## Strategi
 
 Dette afsnit introducerer visionen for deling af data og dokumenter med baggrund i identificerede temaer, principper, arkitekturregler og den forventede værdiskabelse.
 
-### 2.1 Temaer
+### Temaer
 
 Referencearkitekturen udmønter og understøtter beslutninger i Den fællesoffentlige digitaliseringsstra- tegi 2016-2020. Strategien har tre, overordnede målsætninger:
 
@@ -217,7 +217,7 @@ Ved at kigge på tværs af initiativerne samt inddrage trends fra den digitale u
 
 Mange af disse temaer kan genfindes i en række aktuelle offentlige og politiske strategiarbejder, herunder sammenhængsreformen, den nationale cybersikkerhedsstrategi, kommunernes digitaliseringsstrategi "Lokal og Digital", Strategi for digital Sundhed 2018 - 2020 samt det europæiske rammeværk for inter- operabilitet (New European Interoperability Framework for European Public Services).
 
-### 2.2 Strategiske principper
+### Strategiske principper
 
 De strategiske principper, der ligger til grund for denne referencearkitektur, udspænder sig i et spændingsfelt. På den ene side åbner visionen om det datadrevne samfund, hvor data ses som et råstof for samfundsudviklingen, for en lang række muligheder og ønsker. På den anden side er deling og data også underlagt begrænsninger og indskrænkninger i lovgivning. Dette afsnit opridser de væsentligste principper i dette spændingsfelt.
 
@@ -242,7 +242,7 @@ På begrænsningssiden er der også en række principper, der skal tages i agt. 
 * **Integritet** og **fortrolighed**
 * **Ansvarlighed** (man skal kunne påvise, at ovenstående overholdes)
 
-### 2.3 Vision
+### Vision
 
 Visionen i denne referencearkitektur er at stræbe efter en situation, hvor:
 
@@ -267,7 +267,7 @@ Denne vision kræver, at en række forretningsevner i det offentlige forstærkes
 * **Identifikation og dokumentation af data** - sker allerede i ISO 27000-sammenhæng for den interne brug, men også behov for at dække, at data udstilles til andre.
 * **Genbrug af løsninger** - sikrer, at vi kan lave hyppige udvidelser både af funktionalitet og anvendelsesområde.
 
-### 2.4 Værdiskabelse
+### Værdiskabelse
 
 Værdien ved at følge denne referencearkitektur kan deles op i den direkte og indirekte værdiskabelse. Den direkte værdiskabelse opnås ved, at referencearkitekturen:
 
@@ -283,7 +283,7 @@ Med effektiv systemudvikling og compliance på plads er vejen banet for, at data
 * Vækst i samfundet gennem nye typer af services baseret på eksisterende data
 * Øget transparens og bevarelse af tillid til registre
 
-### 2.5 Juridiske rammer
+### Juridiske rammer
 
 De mest relevante love og forordninger (med særligt fokus på videregivelse af persondata) er:
 
@@ -307,7 +307,7 @@ Derudover er der en række mere specifikke love, der sætter rammer for videregi
 
 I den konkrete situation, hvor videregivelse af data med henblik på genbrug af data overvejes, kan der være yderligere juridiske rammer, der vil påvirke løsningsarkitekturen. Dette må analyseres og afsøges i det enkelte tilfælde.
 
-### 2.6 Sikkerhed
+### Sikkerhed
 
 Sikkerheden ved videregivelse af data beror altid på forholdet mellem en konkret risikovurdering og de tiltag, der gøres for at imødegå de identificerede risici. I denne referencearkitektur er det forsøgt at be- skrive sikkerhedsovervejelser i forbindelse med de relevante arkitekturelementer, fremfor at samle dem i et særskilt afsnit. Dette ud fra en betragtning om, at sikkerhed ikke er et særskilt emne, men bør være gennemgående for alle betragtninger i emnet videregivelse af data.
 
@@ -321,7 +321,7 @@ I øvrigt er de generelle forhold ved informationssikkerhed, der er beskrevet i 
 
 Endelig kan der omkring videregivelse af konkrete typer data gælde mere specifik lovgivning, der regu- lerer niveauet af sikkerhed og tekniske tiltag for at opnå denne. Det er altid den dataansvarliges ansvar at sikre sig, at den specifikke lovgivning overholdes.
 
-### 2.7 Fællesoffentlige arkitekturprincipper og -regler
+### Fællesoffentlige arkitekturprincipper og -regler
 
 Den Fællesoffentlige Digitale Arkitektur (FDA) udpeger en række principper til rammesætning og styring af den offentlige digitalisering. Under hvert princip angiver FDA fra 1 til 5 konkrete arkitekturregler. Oversigten nedenfor gengiver FDA's arkitekturprincipper (kilde: [https://arkitektur.digst.dk/](https://arkitektur.digst.dk/)).
 
@@ -364,11 +364,11 @@ Derudover kan en række af de øvrige arkitekturregler udfoldes og konkretiseres
 * **AR 8. 1 Levér data og services i henhold til aftalte servicemål.**
   * Ved tilslutning til dataservices aftales servicemål og mål for datakvalitet
 
-## 3 Forretningsarkitektur
+## Forretningsarkitektur
 
 Dette afsnit beskriver på forretningsniveau de centrale forretningsfunktioner, der er dækket i denne referencearkitektur, i form af use cases og tværgående processer. De medvirkende aktører og deres roller beskrives. Sluttelig gives en oversigt over forretningsobjekter omkring deling af data og dokumenter.
 
-### 3.1 Forretningsmæssig kontekst for videregivelse af data
+### Forretningsmæssig kontekst for videregivelse af data
 
 Emnet for denne referencearkitektur er "deling af data og dokumenter". Det er ikke urimeligt at sige, at denne funktion er så generisk, at den indgår i snart sagt alle processer, der går ud over den enkelte myndighed, hvad enten det er i forbindelse med sagsbehandling, selvbetjening eller noget tredje. Over- ordnet set finder referencearkitekturen dermed anvendelse i løsningen af alle offentlige opgaver.
 
@@ -394,7 +394,7 @@ Som eksempler på anvendelser, der vil have gavn af effektiv datadeling, kan næ
 * Medbringelse af et dokument til en anden, offentlig/privat serviceudbyder, der ikke har adgang til registre - herunder bekræftelse af dokumentets ægthed og validering af dets indhold
 * Tværgående analyse, tilsyn og kontrol
 
-### 3.2 Om data og dokumenter
+### Om data og dokumenter
 
 Figur 5 viser de centrale begreber i denne referencearkitektur, hvor data ikke overraskende ligger i mid- ten. Vi vil ikke introducere en specifik og isoleret definition af data - vi regner med, at læseren har en god fornemmelse for, hvad data er, og det er i denne sammenhæng tilstrækkeligt.
 
@@ -423,7 +423,7 @@ To virkelige eksempler kan gøre begreberne omkring data mere konkrete:
 * **CPR-registeret**: data om borgere indgår i den datasamling, der kaldes CPR-registeret og i praksis benævnes netop som et register. Data om en enkelt borger udgør én specifik registrering i CPR-registeret, der kan hentes via en standardiseret forespørgsel.
 * **Røntgenbilleder**: data relateret til et røntgenbillede består dels af billeddata, dels af yderligere informationer som fx tidsstempel, patient-ID, datakilde m.m. I praksis håndteres data for et røntgenbillede i et samlet, standardiseret objekt, som vi kan referere til som et dokument. Røntgenbilleder er gemt i flere repositories decentralt i røntgensystemer hos de enkelte regioner/hospitaler.
 
-### 3.3 Forretningsfunktionen videregivelse
+### Forretningsfunktionen videregivelse
 
 Den centrale delte use case i denne referencearkitektur er:
 
@@ -437,7 +437,7 @@ samt yderligere to use cases, der ikke er beskrevet uddybende i denne referencea
 
 _Figur 6 : Den delte use case videregivelse , de relaterede use cases registrering og sletning og arkivering samt de funktioner, der er knyttet til de involverede roller, modelleret med relevante juridiske roller og forret- ningsmæssige funktioner._
 
-### 3.4 Forretningsroller og aktører
+### Forretningsroller og aktører
 
 I denne referencearkitektur defineres en forretningsrolle:
 
@@ -465,7 +465,7 @@ Aktørerne ved deling af data og dokumenter er:
 * **Borgere**, oftest i rollen som den registrerede, men også som registrator.
 * **Virksomheder** som dataanvendere, særligt i forbindelse med private tjenester, der anvender oplysninger registreret i offentligt regi i forbindelse med at levere ydelser til den registrerede, men også, når anvendelsen er for virksomhedens egen skyld. Og som databehandlere, når de leverer løsninger og services til offentlige myndigheder.
 
-### 3.5 Tværgående processer
+### Tværgående processer
 
 I ovenstående diagram over centrale use cases er videregivelse den væsentligste, da den rummer selve delingen af data. Dykker man ned i den, findes den i to grundvarianter, hhv. videregivelse på forespørgsel og videregivelse ved meddelelse. Figuren nedenfor beskriver disse to varianter på procesform og knytter dem tillige sammen med en kort beskrivelse af processen registrering af data.
 
@@ -477,7 +477,7 @@ _Figur 7: Overblik over de centrale processer for videregivelse af data og deres
 
 Nedenfor er de to grundvarianter for videregivelse af data, videregivelse på forespørgsel og videregivelse ved meddelelse, beskrevet i detaljer. Registrering af data er ligeledes beskrevet, dog mere summarisk, da den i kontekst af denne referencearkitektur kun er med af referencehensyn.
 
-#### 3.5.1 Videregivelse på forespørgsel
+#### Videregivelse på forespørgsel
 
 Denne proces dækker, at en dataanvender - typisk en myndighed, men kan også være en virksomhed - søger adgang til data, der på forhånd er til stede og kan gøres tilgængelige af en dataansvarlig.
 
@@ -507,7 +507,7 @@ I forhold til trinnet ’vurder adgang’ bemærkes det, at hjemlen for en speci
 * **Indsigt**: Processen skal understøtte effektiv indsigt i anvendelse, hvilket bl.a. kræver logning af konkrete videregivelser af data
 * **Opbevaring**: Dataanvender bør benytte den autoritative datasamling direkte hvis muligt. Herved undgås, at der opbygges 'skyggekopier' af datasamlinger, der introducerer kompleksitet i forbindelse med synkronisering, aktualitetsudfordringer m.m.
 
-#### 3.5.2 Videregivelse ved meddelelse
+#### Videregivelse ved meddelelse
 
 Denne proces dækker, at en afsender - typisk en myndighed eller en virksomhed - har behov for at sende  
 data (evt. i form af et dokument) til en modtager.
@@ -557,7 +557,7 @@ Når man skal vurdere processen videregivelse ved meddelelse, er følgende kvali
 * **Sporbarhed**: Der skal være et klart revisionsspor i logs for meddelelsers vej gennem systemet, bl.a. for at understøtte klarhed over, hvornår meddelelser er overført og ansvaret for eventuel videre behandling dermed overgået til modtager. Evt. kan loggen understøtte en 'track and trace'-funkti- onalitet.
 * **Automatisering**: Meddelelser bør være velstrukturerede og understøtte automatisering på modta- gers side, fx ved at gøre data til fordeling/håndtering af meddelelser tilgængelig i en meddelelses- header.
 
-#### 3.5.3 Registrering af data
+#### Registrering af data
 
 Denne proces dækker de overordnede trin i at registrere data. Procestrinene er ikke foldet så meget ud som for de øvrige use cases, da registrering af data ikke falder i scope for denne referencearkitektur. Dog er en kort beskrivelse medtaget for reference på grund af den tætte sammenhæng mellem registrering og udstilling af data. Procestrinene er:
 
@@ -581,7 +581,7 @@ Når man skal vurdere processen registrering af data, er følgende kvaliteter og
 * **Kvalitet**: Hvilke krav er der til datas komplethed, hvordan valideres i forhold til datatyper, og er registreringens granularitet passende?
 * **Øvrig anvendelse**: Baseret på datas følsomhed, fortrolighedsniveau m.m. kan der være mulighe- der for anvendelse af data ud over den primære anvendelse. Er data lagret og udstillet på den mest hensigtsmæssige måde, der ikke begrænser genbrug unødigt? Er den datasamling, hvori registreringen indgår, velbeskrevet i et katalog?
 
-#### 3.5.4 Hybrid-varianter
+#### Hybrid-varianter
 
 I dette dokument betragter vi de ovenstående to processer for videregivelse af data hhv. på forespørgsel og ved meddelelse som de atomare grundelementer, der er nødvendige for at kunne beskrive og tale om videregivelse af data. Det er dog værd at bemærke, at der i praksis kan skabes 'hybrid-varianter' af de to processer, der kan være velegnede i særlige situationer. Som eksempler kan nævnes:
 
@@ -589,7 +589,7 @@ I dette dokument betragter vi de ovenstående to processer for videregivelse af 
    
 * **Videregivelse via link til data:** Denne proces er en variant af videregivelse ved meddelelse, hvor der imidlertid ikke sendes data direkte i meddelelsen, men i stedet et link til, hvor data kan hentes. Linket kan enten være til en særligt forberede 'pakke' af data, fx i form af et dokument, eller til specifikke data, der er relevante for modtageren i den givne sammenhæng. Modtageren vil herefter kunne hente data gennem processen videregivelse på forespørgsel. Dette procesmønster kan fx være relevant, hvis man ønsker et ekstra lag af sikkerhed ved at undgå, at data kopieres fra datasamlingen til en meddelelse, hvilket giver en ekstra, sikkerhedsmæssig angrebsvektor (jf. GDPR-princippet privacy by design ).
 
-### 3.6 Forretningsobjekter og begreber
+### Forretningsobjekter og begreber
 
 Når processerne omkring videregivelse af data skal implementeres, er der en række begreber, det er væsentligt at holde styr på gennem god modellering. De fleste af begreberne er defineret, hvor de an- vendes første gang i denne referencearkitektur. Dette afsnit nævner eksplicit en række elementer, der beskriver data, der enten overføres eller opbevares i forbindelse med processer (forretningsobjekter).
 
@@ -627,7 +627,7 @@ Diagrammet rummer en række øvrige elementer, der knytter sig til og grænser o
 
 Endelig er der i arbejdet med denne referencearkitektur blevet identificeret en række yderligere begreber, der kan gøres til genstand for begrebsmodellering: begrebs- og datamodel, registeroplysning, dokument, registreringsbegivenhed, forretningshændelse/begivenhed, klassifikation, fuldmagt og generelle samtykker.
 
-## 4 Teknisk arkitektur
+## Teknisk arkitektur
 
 Dette afsnit beskriver, hvordan de forretningsmæssige processer, begreber og objekter beskrevet i det forrige afsnit kan udmønte sig i konkrete applikationsservices. Dette leder samtidigt til et overblik over de områder, hvor der er behov for standardisering. Vi supplerer dette overblik med en oversigt over eksisterende standarder og specifikationer, der allerede er i anvendelse i den offentlige sektor.
 
@@ -646,7 +646,7 @@ Implementeringsmønstrene, der beskrives i denne referencearkitektur, er:
 
 Ud over den tekniske beskrivelse angives der for hvert mønster en kort forretningsmæssig diskussion af fordele og ulemper. I en konkret anvendelsessituation kan denne diskussion benyttes som vejledende input i forhold til valg af implementeringsmønster.
 
-### 4.1 Nødvendige applikationsservices
+### Nødvendige applikationsservices
 
 Applikationsservicen datasamling samt tilhørende log og brugerstyring udgør de nødvendige applikations- services for at implementere processen videregivelse på forespørgsel i en simpel form. Derudover er appli- kationsservicen selvbetjening inkluderet som en praktisk nødvendighed for at kunne tilbyde den registre- rede effektiv indsigt i anvendelsen af data om vedkommende. For at implementere en simpel form for videregivelse ved meddelelse er også applikationsservicen forsendelse (samt tilhørende log og brugerstyring hos afsender og modtager) nødvendig.
 
@@ -672,7 +672,7 @@ Selvbetjening - applikationsservice, der implementer en sammenhængende række a
 
 Som nævnt i afsnit 1.2 er partsrepræsentation ikke i scope for denne referencearkitektur, og det vil derfor ikke blive foldet yderligere ud. Vi bemærker dog, at emnet er relevant i flere af de ovenstående applika- tionsservices omkring håndhævelse af adgangskontrol, logning af anvendelse, adgang og design af selv- betjeningsløsninger m.m.
 
-#### 4.1.1 Ønskelige egenskaber ved videregivelse (både ved meddelelse og på forespørgsel)
+#### Ønskelige egenskaber ved videregivelse (både ved meddelelse og på forespørgsel)
 
 Dette afsnit sætter flere ord på de kvaliteter, der grundlæggende knytter sig til videregivelse af data. De forskellige kvaliteter er her stillet op i sammenhæng med den relevante applikationsservice.
 
@@ -712,11 +712,11 @@ Gode egenskaber omkring forsendelse inkluderer:
 
 **Selvbetjening** : En forudsætning for sammenhænge og effektiv betjening af borger og virksomheder – også i forbindelse med videregivelse af data – er brugervendte selvbetjeningsløsninger. Disse er genstand for en selvstændig fællesoffentlig referencearkitektur, men er medtaget her for at understøtte den regi- streredes ret til indsigt i behandling af persondata. Selvbetjening er også en forudsætning for at kunne afgive og administrere samtykker effektivt og sammenhængende – hvilket i øvrigt er uden for scope af denne referencearkitektur.
 
-### 4.2 Implementering af videregivelse på forespørgsel
+### Implementering af videregivelse på forespørgsel
 
 Når en dataanvender (virksomhed eller myndighed) har brug for adgang til data hos en dataansvarlig myn- dighed, kan det ske via ét af nedenstående tre implementeringsmønstre.
 
-#### 4.2.1 Direkte adgang
+#### Direkte adgang
 
 Hvis målet for en anvender er at benytte data fra en specifik datasamling hos en bestemt dataansvarlig myndighed, som måske i forvejen har gjort data tilgængelige via en simpel dataservice med tilhørende log, og som har et ønske om selv at forestå videregivelsen af data, kan mønsteret direkte adgang være relevant.
 
@@ -734,7 +734,7 @@ Udfordringerne ved mønsteret er bl.a., at dataansvarlig kommer til at bære hel
 
 Næste mønster adresserer en række af udfordringerne ved direkte adgang.
 
-#### 4.2.2 Datadistributør
+#### Datadistributør
 
 Hvis man ønsker en situation, hvor anvender kan hente data fra en dedikeret datadistributør, der afløfter en væsentlig del af byrden ved videregivelse af data fra den dataansvarlige myndighed, og hvor man har mulighed for at designe anvendelsesorienterede dataservices, der evt. kombinerer data fra flere datasamlinger i et format, der er tilpasset anvenders behov, er mønsteret datadistributør relevant at overveje.
 
@@ -778,7 +778,7 @@ En specifik udfordring i forbindelse med dette mønster er, at det er muligt at 
 
 Det næste mønster søger at adressere nogle af de udfordringer, der ligger i at arbejde på en kopi af en datasamling.
 
-#### 4.2.3 Fælles service- og dataplatform
+#### Fælles service- og dataplatform
 
 Hvis man ønsker at benytte en dedikeret infrastrukturkomponent til distribution af data, men uden at man ønsker at indføre en distributionskopi med den kompleksitet, det medfører – og hvis man har mulighed for at lade dataansvarlig og dataanvender operere på samme platform, således at de respektive datasamlinger ligger fysisk samlet, men logisk adskilt, kan mønsteret Fælles service- og dataplatform være interessant.
 
@@ -804,11 +804,11 @@ Fordelen ved dette mønster er den umiddelbare og standardiserede tilgængelighe
 
 Ulempen ved mønsteret er, at kompleksitet og governance (herunder audit) omkring den enkelte data- samling øges, da den pludselig gøres tilgængelig meget tæt på andre dataansvarliges datasamlinger. Derud- over stilles der større krav til dataanvenders modenhed ift. den tekniske adgang til data (da dataanvenders applikationer i praksis vil skulle afvikles på den fælles service- og dataplatform).
 
-### 4.3 Implementering af videregivelse ved meddelelse
+### Implementering af videregivelse ved meddelelse
 
 Når en myndighed vil initiere en specifik og målrettet videregivelse - dvs. sende data (herunder doku- menter) til en anden myndighed, virksomhed eller borger - kan det ske via ét af de tre nedenstående mønstre.
 
-#### 4.3.1 Direkte forsendelse
+#### Direkte forsendelse
 
 Hvis målet er at kunne sende meddelelser fra en afsender til få, kendte modtagere, hvor man har mulighed for forud at opsætte en sikker og krypteret punkt til punkt-forbindelse fra afsender til modtager, og hvor der ikke er forventning om den store, dynamiske ændring af modtager-kredsen, kan implementerings- mønsteret direkte forsendelse være relevant. Dette mønster tilbyder den enkleste måde at videregive data via en meddelelse på.
 
@@ -828,7 +828,7 @@ Udfordringerne ved dette mønster inkluderer, at implementeringen – både hvad
 
 Næste mønster adresserer en række af udfordringerne ved Direkte forsendelse.
 
-#### 4.3.2 Fælles system
+#### Fælles system
 
 Hvis man som afsender har en bred og/eller varierende modtager-kreds på de meddelelser, der skal afsen- des – hvis man fx skal designe standardkommunikation fra myndighed til borgere – og hvis man i øvrigt ikke kan stille særlige krav til en forsendelsesservice, der på modtagers side kan håndtere modtagelse af meddelelser, kan det være en fordel at anvende en infrastrukturkomponent i form af et fælles system. Dette mønster tilbyder, at man kan genbruge en eksisterende infrastrukturløsning, der afkobler afsender og modtager på det tekniske og i nogen grad også på det aftalemæssige plan, og som giver mulighed for at benytte nye applikationsservices som fx notifikation og adresse.
 
@@ -856,7 +856,7 @@ Selv om dette mønster har mange fordele – hovedsageligt, at det benytter sig 
 
 Det næste mønster sigter mod at adressere nogle af de infrastruktur-relaterede udfordringer i Fælles system.
 
-#### 4.3.3 Servicefællesskab
+#### Servicefællesskab
 
 Hvis man som afsender/modtager ønsker at etablere videregivelse af data ved meddelelse, og fra starten ønsker at vælge en infrastruktur, der er designet til at være fleksibel, interoperabel og skalerbar, kan det være en fordel at følge mønsteret Servicefællesskab.
 
@@ -882,7 +882,7 @@ Samtidig er det for eDelivery-standarden en specifik udfordring, at etableringen
 
 **Servicefællesskab** - forretningsrolle der regulerer services udbudt af en række serviceudbydere
 
-### 4.4 Understøttende applikationsservices
+### Understøttende applikationsservices
 
 I de ovenstående mønstre er der introduceret en række yderligere services, der bidrager med forskellige, ønskelige egenskaber ved implementeringsmønstrene (dataservices, distributionskopi, dataindeks, og notifi- kationsservice). Fælles for disse er, at de oftest anvendes run-time i videregivelsen af data. Derudover vil en række services, der ikke er medtaget i ovenstående mønstre, også kunne understøtte etablering og vedligeholdelse af integrationer (referencedata, modelkatalog og datakatalog).
 
@@ -914,13 +914,13 @@ Data må alene videregives på baggrund af gyldig hjemmel. Videregivelse skal lo
 
 Denne applikationsservice håndterer endvidere samtykker og fuldmagter, der i mange tilfælde kan udgøre den nødvendige hjemmel til videregivelse. Den nærmere modellering og håndtering af samtykker og fuldmagter sker i spændingsfeltet mellem brugerstyring og videregivelse af data og er ikke uddybet i denne referencearkitektur.
 
-### 4.5 Områder for standardisering
+### Områder for standardisering
 
 Et af referencearkitekturens formål er at udpege områder, hvor standardisering i form af fælles anven- delsesprofiler vil være særligt værdifuld. Både for videregivelse på forespørgsel og videregivelse ved meddelelse er der — set fra ‘forretningens’ synspunkt — en række snitflader, der går igen. Standardisering af disse vil tillade anvender at anvende samme snitflader uanset hvilket implementeringsmønster, der realiseres.
 
 I udarbejdelsen af referencearkitekturen er der foretaget en delvis afdækning af de standarder, anvendelsesprofiler m.m., der pr. 2017 anvendes i den offentlige sektor. Lister over disse standarder er medtaget for at beskrive og belyse de enkelte integrationstyper og kan benyttes til inspiration. De nævnte standar- der skal dermed ikke ses som en hverken udtømmende eller autoritativ liste. For en nærmere beskrivelse af begreberne omkring standardisering, se Bilag E: Om specifikationer, standarder og profiler.
 
-#### 4.5.1 Tekniske specifikationer
+#### Tekniske specifikationer
 
 I forbindelse med udarbejdelsen af referencearkitekturen har arbejdsgruppen identificeret en række relevante, tekniske specifikationer, der som nævnt indledningsvist ikke skal ses som en autoritativ liste i forhold til fremtidige anvendelser, men blot er inkluderet til inspiration og til at belyse området.
 
@@ -987,7 +987,7 @@ Digitaliseringsstyrelsen har i efteråret 2017 gennemført en dokumentation af d
 
 Digitaliseringsstyrelsen har i 2017 gennemført en foranalyse om eDelivery-anvendelse i Danmark. Med udgangspunkt i foranalysen er det besluttet at igangsætte analysefasen af et eDelivery-implementerings- projekt. Analysefasen gennemføres i 2018 med fokus på strategiske gevinster samt fastlæggelse af tekni- ske, organisatoriske og økonomiske rammer for en efterfølgende implementering og udrulning.
 
-#### 4.5.2 Øvrige standarder
+#### Øvrige standarder
 
 ##### Organisatoriske standarder og aftaler
 
@@ -1006,7 +1006,7 @@ Standardisering på det semantiske niveau er nødvendig for at sikre, at systeme
 * **Kontekst** (klassifikation af anvendelse)
 * **Klassifikation** af følsomhed
 
-## 5 Perspektivering
+## Perspektivering
 
 I dette afsnit fremhæves en række punkter, hvor arbejdet i denne referencearkitektur peger frem mod yderligere initiativer, eller hvor indholdet i referencearkitekturen (fx set i kontekst af teknologitrends) giver interessante fremtidsperspektiver.
 
@@ -1041,9 +1041,9 @@ Blockchain er en ny teknologi, der på tidspunktet for dette dokuments udarbejde
 
 Afsnit 3.1 beskriver en række (gen)-anvendelser af data, der rækker ud over digital selvbetjening i offentlige sammenhænge. Der er behov for at understøtte disse anvendelser også, evt. ved at introducere yderligere forretnings- og implementeringsmønstre.
 
-## 6 Bilag
+## Bilag
 
-### 6.1 Bilag A: Tjekliste for anvendelse af referencearkitekturen
+### Bilag A: Tjekliste for anvendelse af referencearkitekturen
 
 Denne tjekliste kan anvendes af projekter, der designer, bestiller eller udvikler løsninger til deling af data. Tjeklisten trækker mange af de væsentligste punkter fra denne referencearkitektur frem og er desuden skrevet med projektarbejde for øje, i det den fremhæver mange af de nødvendige afklaringer, der skal foretages i projektsammenhæng.
 
@@ -1080,7 +1080,7 @@ Tjeklisten anvendes desuden som en del af det arkitekturmæssige review af proje
 | T8  | Har projektet klarlagt evt. eksisterende message-infrastruktur hos hhv. afsender og modtager?                                                                                                                                                                                                                                          | 4.3 Implementering af videregivelse ved meddelelse                        | 5: Processer optimeres på tværs<br><br>7: It-løsninger samarbejder effektivt                                                                   |
 | T9  | Har projektet klarlagt, om der findes et adresseregister, der kan genbruges til adressering af meddelelser og påmindelser?                                                                                                                                                                                                             | 3.5.2 Videregivelse ved meddelelse                                        | 5: Processer optimeres på tværs<br><br>7: It-løsninger samarbejder effektivt                                                                   |
 
-### 6.2 Bilag B: Ord- og begrebsliste
+### Bilag B: Ord- og begrebsliste
 
 Listen på de næste sider definerer og forklarer betydningen af de væsentligste ord og begreber, der indgår i den fællesoffentlige referencearkitektur for deling af data og dokumenter.
 
@@ -1164,7 +1164,7 @@ Listen på de næste sider definerer og forklarer betydningen af de væsentligst
 | intergrationsmønster   | business collaboration; tværgående use case |                     | to eller flere forretningsrollers koordinerede handlinger i en specifik kontekst                 |                                 | egen oversættelse |                | Archimate specifikation |
 | implementationsmønster | application collaboration                   |                     | to eller flere applikationskomponenter der samarbejder for at udføre en fælles opgave            |                                 | egen oversættelse |                | Archimate specifikation |
 
-### 6.3 Bilag C: Eksempel: Anvendelse af referencearkitekturen i et projekt
+### Bilag C: Eksempel: Anvendelse af referencearkitekturen i et projekt
 
 Dette bilag har til formål at give et eksempel på, hvordan man kan anvende Referencearkitektur for deling af data og dokumenter i en konkret (men fiktiv) projektsammenhæng. Eksemplet er opfundet til lejligheden, og det skal understreges, at løsningsskitser og diagrammer i dette afsnit således ikke på nogen måde hævder at repræsentere den virkelige proces.
 
@@ -1224,7 +1224,7 @@ Ved at anvende Referencearkitektur for deling af data og dokumenter (samt de øv
 
 _Figur 18 : En mere detaljeret løsningsskitse, der er kvalificeret med begreber og implementeringsmønstre hentet fra Referencearkitektur for deling af data og dokumenter._
 
-### 6.4 Bilag D: Eksempler på løsninger pr. implementeringsmønster
+### Bilag D: Eksempler på løsninger pr. implementeringsmønster
 
 Implementeringsmønstrene i denne referencearkitektur er beskrevet som selvstændige mønstre bygget på det begrebsapparat, vi har valgt at beskrive videregivelse af data ud fra – uden konkrete referencer til faktiske løsnin- ger. Det betyder imidlertid ikke, at der ikke i dag (primo 2018) findes konkrete, produktionssatte løsninger, der i overvejende grad følger de beskrevne mønstre. Nedenfor gives en kort oversigt over faktiske løsninger, der på væsentlige punkter passer ind i de beskrevne mønstre.
 
@@ -1237,7 +1237,7 @@ Implementeringsmønstrene i denne referencearkitektur er beskrevet som selvstæn
 | Fælles system                   | Digital Post                        |                                                  |
 | Servicefællesskab               | NemHandel via PEPPOL                |                                                  |
 
-### 6.5 Bilag E: Om specifikationer, standarder og profiler
+### Bilag E: Om specifikationer, standarder og profiler
 
 I forbindelse med udbud har man behov for at beskrive de krævede egenskaber for løsningen i en ’teknisk specifikation’. Betydningen fremgår af EU's direktiv 2014/24/EU, der regulerer offentlige udbud og definerer ‘tekniske specifikationer’ som: _Specifikation i et dokument, som fastlægger krævede egenskaber ved et produkt eller en tjenesteydelse_. I relation til indkøb af it-løsninger til brug ved deling af data og dokumenter inkluderer dette egenskaber ved udstillede applikationsservices.
 
@@ -1251,7 +1251,7 @@ Til en given anvendelse er det ofte hensigtsmæssigt at benytte ‘profiler’. 
 
 I den fællesoffentlige rammearkitektur dækker begrebet ’anvendelsesprofil’ over denne betydning. Referencearkitekturens formål kan dermed også beskrives som, at den skal være det dokument, der udpeger områder, hvor der mangler relevante anvendelsesprofiler.
 
-### 6.6 Bilag F: Mapning til European Interoperability Reference Architecture v2
+### Bilag F: Mapning til European Interoperability Reference Architecture v2
 
 EU-kommissionen støtter gennem ISA2 - programmet udvikling af digitale løsninger, der sætter offentlige instanser, borgere og virksomheder i Europa i stand til at drage fordel af offentlige services, der er interoperable på tværs af landegrænser, sektorer m.m.
 
