@@ -184,7 +184,7 @@ Dette dokument følger generelt skabelonen for referencearkitekturer under FDA-r
 
 I [afsnittet Forretningsarkitektur](#forretningsarkitektur) beskrives forretningen i form af de grundlæggende use cases, roller og ansvar omkring videre- givelse af data. Begrebsmodellen, der fanger de termer, der introduceres i denne referencearkitektur, præsenteres også her.
 
-[AfsnityTeknisk arkitektur](#teknisk-arkitektur) beskriver den tekniske arkitektur i form af en række implementeringsmønstre for, hvordan deling af data kan implementeres. Ud fra mønstrene identificeres en række gennemgående integrationssnitflader, der leder op til en analyse af, hvor der er behov for standardisering.
+[Afsnittet Teknisk arkitektur](#teknisk-arkitektur) beskriver den tekniske arkitektur i form af en række implementeringsmønstre for, hvordan deling af data kan implementeres. Ud fra mønstrene identificeres en række gennemgående integrationssnitflader, der leder op til en analyse af, hvor der er behov for standardisering.
 
 Det er tilstræbt at bygge dokumentet op omkring enkle og relativt stramt definerede termer, der beskriver de centrale begreber omkring videregivelse af data og de mulige forretnings- og implementeringsmønstre. Definitionerne introduceres løbende gennem dokumentet og er endvidere opsamlet i [Bilag B: Ord- og begrebsliste](#bilag-b-ord--og-begrebsliste).
 
